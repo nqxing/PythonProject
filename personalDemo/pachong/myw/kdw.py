@@ -10,7 +10,7 @@ def percent_to_int(string):
         newint = int(string.strip("%")) / 100
         return newint
     else:
-        print("你输入的不是百分比！")
+        print("你输入的不是百分比哦！")
         return 60
 
 def download(title, durl, save_path):
@@ -74,7 +74,7 @@ def get_durl(max):
                             durls.append(dtup)
         return durls
     except:
-        print('获取视频链接异常，请稍后再试')
+        print('获取视频链接异常，请稍后再试！')
         print(traceback.format_exc())
         return -1
 
