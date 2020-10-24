@@ -30,7 +30,8 @@ DB_NAME = 'public'
 eleme_sign_dict = {}
 card_dict = {}
 
-# 王者菜单提示
+
+# 王者菜单提示啊
 
 TIPS = {
     'bz': 'tips：发送“{}壁纸”可获取{}全皮肤壁纸哦，发送“菜单”可查看完整关键字列表',
