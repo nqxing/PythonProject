@@ -1,0 +1,76 @@
+
+
+Request Head:
+
+GET /restapi/member/v1/users/36905538/sign_in/info?longitude=119.21204097568989&latitude=26.037406884133816 HTTP/1.1
+Origin: https://tb.ele.me
+Cookie: track_id=1573962146|3667e7a2fda9ba704ecc6e1fac8a7f1765cacf0bf77c6fe037|49619c1904b176104f7357bb0d95c896; USERID=36905538; UTUSER=36905538; SID=UibslO0RWWfWBCa9JVDRH33TZ5ma7qbXsHHw; ZDS=1.0|1573962146|zChluWGADJ6xnEj2OftcMRmbzmHBGiBcnkuPM0qjXjdUCTk4jfemvILS9PQpvbaH; tzyy=e001cb9e736d2d8aa19ed20863b24dfa; ut_ubt_ssid=f25qyigdh509x9or4fvb2jnvj6ldfi3q_2019-11-17; perf_ssid=5drzx1okxrohghne34sku3tzp2g5fx08_2019-11-17; ubt_ssid=5w2jwo06jde3dxfsryztoelmayz7c1nt_2019-11-17; cna=O/6SFf6lclkCAXnMO4URlBdA; _utrace=96411ebd604163004750cc210a17794a_2019-11-17; x5check_ele=P4kgwgvR9bLZ5nRdlM0TwQ%3D%3D; isg=BF5e9R1cj3MAWtuUr1hrPMONpPagHyKZ5vhjdAjnzqGcK_oFcK8sq8iJJnGHJRqx
+f-refer: wv_h5
+x-shard: loc=119.21204097568989,26.037406884133816
+Accept: application/json, text/plain, */*
+X-Requested-With: me.ele
+User-Agent: Rajax/1 16th/meizu_16th_CN Android/8.1.0 Display/Flyme_8.0.0.0A Eleme/8.27.4 Channel/meizu ID/db0f7c28-eb3d-3548-97c0-196205639927; KERNEL_VERSION:4.9.65-perf+ API_Level:27 Hardware:6c8be58e32dfebacddf1a397548ad297 Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; 16th Build/OPM1.171019.026) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/69.0.3497.100 UWS/3.21.0.24 Mobile Safari/537.36 AliApp(ELMC/8.27.4) UCBS/2.11.1.1 TTID/offical WindVane/8.5.0,UT4Aplus/0.2.16
+Referer: https://tb.ele.me/wow/zele/act/qiandao?wh_biz=tm&source=main
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,en-US;q=0.9
+Host: h5.ele.me
+Connection: Keep-Alive
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 OK
+Date: Thu, 19 Dec 2019 02:44:26 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 130
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, X-Eleme-RequestID, X-ELEME-USERID, X-Shard, X-Captcha-Platform, X-Captcha-Session-Id, X-Captcha-Sig, X-Captcha-Token, X-NVC, X-UAB, X-UA, X-Alipay-Socrates
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Access-Control-Allow-Origin: https://tb.ele.me
+Access-Control-Expose-Headers: X-Echo-RequestID
+Access-Control-Max-Age: 86400
+Cache-Control: no-cache
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000
+Vary: Origin
+Vary: Origin
+Vary: Accept-Encoding
+X-Echo-Requestid: E93DDD51B1834F959E2BD21468464039|1576723466634
+X-Powered-By: httpizza-go/1.2.10/42fa4826fbf559019f7f3cd0451c0a67e2f44076
+X-Sopush-Cache-Status: skip
+Server: Tengine/Aserver
+EagleEye-TraceId: 0bc5f50f15767234666317101e5812
+Strict-Transport-Security: max-age=0
+
+
+Body:
+
+{
+	"continue_prizes":[
+		0,
+		0,
+		3,
+		0,
+		0,
+		0,
+		10
+	],
+	"current_day":0,
+	"has_daily_prize":true,
+	"has_shared":true,
+	"has_signed_in_today":true,
+	"statuses":[
+		1,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	]
+}

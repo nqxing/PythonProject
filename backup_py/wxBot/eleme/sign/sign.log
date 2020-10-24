@@ -1,0 +1,25 @@
+2019-08-11 10:25:36,365 - DEBUG - {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-08-11 10:25:36,365 - DEBUG - {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-08-11 10:37:47,325 - DEBUG - {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-08-11 10:37:47,325 - DEBUG - {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-08-11 10:38:28,477 - DEBUG - {'message': '一天内不能重复签到两次', 'name': 'SIGN_IN_FAILED'}
+2019-08-11 10:38:28,477 - DEBUG - {'message': '一天内不能重复签到两次', 'name': 'SIGN_IN_FAILED'}
+2019-08-11 10:43:48,022 - DEBUG - {'message': '路由不存在', 'name': 'ROUTE_NOT_FOUND'}
+2019-08-11 10:43:48,022 - DEBUG - {'message': '路由不存在', 'name': 'ROUTE_NOT_FOUND'}
+2019-08-11 10:43:48,310 - DEBUG - {'message': '一天内不能重复签到两次', 'name': 'SIGN_IN_FAILED'}
+2019-08-11 10:43:48,310 - DEBUG - {'message': '一天内不能重复签到两次', 'name': 'SIGN_IN_FAILED'}
+2019-08-11 10:47:34,672 - DEBUG - {'message': '路由不存在', 'name': 'ROUTE_NOT_FOUND'}
+2019-08-11 10:48:09,589 - DEBUG - {'message': '路由不存在', 'name': 'ROUTE_NOT_FOUND'}
+2019-08-11 10:48:47,678 - DEBUG - {'message': '路由不存在', 'name': 'ROUTE_NOT_FOUND'}
+2019-08-11 11:24:34,242 - DEBUG - {'message': '图形验证码输入错误', 'name': 'SIGN_IN_INVALID_CAPTCHA'}
+2019-08-11 11:26:29,484 - DEBUG - {'message': '图形验证码输入错误', 'name': 'SIGN_IN_INVALID_CAPTCHA'}
+2019-08-11 11:28:51,263 - DEBUG - {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-08-11 11:31:57,766 - DEBUG - {'message': '一天内不能重复签到两次', 'name': 'SIGN_IN_FAILED'}
+2019-08-12 09:55:11,140 - DEBUG - {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-08-12 09:59:34,439 - DEBUG - {'message': '图形验证码输入错误', 'name': 'SIGN_IN_INVALID_CAPTCHA'}
+2019-08-12 10:00:29,535 - DEBUG - 400, {'message': '图形验证码输入错误', 'name': 'SIGN_IN_INVALID_CAPTCHA'}
+2019-08-12 10:04:42,483 - DEBUG - 401, {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-08-13 11:26:06,463 - DEBUG - {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-08-13 11:26:56,023 - DEBUG - {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-08-13 11:29:52,550 - DEBUG - {'message': '未登录', 'name': 'UNAUTHORIZED'}
+2019-11-07 09:53:16,279 - DEBUG - 404, {'message': '路由不存在', 'name': 'ROUTE_NOT_FOUND'}

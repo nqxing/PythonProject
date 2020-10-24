@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36cfdba2-3ed9-4d4e-9354-1963df50c0eb" name="Default Changelist" comment="2019-04-14 18:29">
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/dangdang/config_dangdang.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/dangdang/config_dangdang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/dangdang/script_dangdang.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/dangdang/script_dangdang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/dangdang/spider_dangdang.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/dangdang/spider_dangdang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/airtest_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/airtest_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/utils/device_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/utils/device_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/utils/file_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/utils/file_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/utils/norm_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/utils/norm_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/utils/string_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/utils/string_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/东方头条.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/东方头条.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/全民小视频.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/东方头条/全民小视频.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airtest/app_spider-master/抢红包/Red_Wars.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airtest/app_spider-master/抢红包/Red_Wars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/base2/Simulation/parTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/base2/Simulation/parTemplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/base2/Simulation/stuTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/base2/Simulation/stuTemplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/base2/Simulation/teaTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/base2/Simulation/teaTemplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/base2/className_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/base2/className_stu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/ceshi/iq_getTimeTaskCourseList_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/ceshi/iq_getTimeTaskCourseList_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/selenium/defineDef/id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/selenium/defineDef/id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/selenium/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/selenium/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/zhengshi/iq_getTimeTaskCourseList.py" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/zhengshi/iq_getTimeTaskCourseList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/zhengshi/txt/1.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/zhengshi/txt/天蛙学生信息.xls" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/zhengshi/txt/天蛙学生信息.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IQ/zhengshi/txt/智慧学生信息.xls" beforeDir="false" afterPath="$PROJECT_DIR$/IQ/zhengshi/txt/智慧学生信息.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/Examples_mmjpg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/Examples_mmjpg_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/Examples_mmjpg_map_dai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/Renames.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalDemo/Renames.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/get_XiCiIP.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalDemo/get_XiCiIP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/get_wannianrili.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/get_zhihuPic.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalDemo/get_zhihuPic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/Examples_52pojie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/Examples_52pojie_gif.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/base2/get_educationNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalDemo/pachong/base2/get_educationNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/base2/id-985.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/base2/id.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/captcha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/daili.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/database/mysql/designSQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalDemo/pachong/database/mysql/designSQL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/database/mysql/jointSQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalDemo/pachong/database/mysql/jointSQL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/douban_250.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme/cap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme/captcha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_excel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_excel_cap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_excel_new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_getSid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_id.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_id1.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme/test.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme_hongbao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme_lucky.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme_mob.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/eleme_mobLogin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/excel_wb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/fuck_ajj.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/get_wzry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/instagram/get_instagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalDemo/pachong/instagram/get_instagram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/map2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/requests-html-test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/userdata.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/pachong/weixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/setWallPaper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/setWallPaper_bing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/setWallPaper_wzry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalDemo/tkinter/tl12306_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalDemo/tkinter/tl12306_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/baidu-jietu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/baidu-jietu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/tst.log" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PythonProject$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1584272484854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本" />
+    <SUITE FILE_PATH="coverage/PythonProject$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1564539505742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/pdf" />
+    <SUITE FILE_PATH="coverage/PythonProject$1.coverage" NAME="1 Coverage Results" MODIFIED="1584247073556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/wxPublic/keywords" />
+    <SUITE FILE_PATH="coverage/PythonProject$wzry_yy_jc.coverage" NAME="wzry_yy_jc Coverage Results" MODIFIED="1584177038134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/wxPublic/wzry" />
+    <SUITE FILE_PATH="coverage/PythonProject$threading_test.coverage" NAME="threading_test Coverage Results" MODIFIED="1557644682422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
+    <SUITE FILE_PATH="coverage/PythonProject$api.coverage" NAME="api Coverage Results" MODIFIED="1567689959962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/pachong/api" />
+    <SUITE FILE_PATH="coverage/PythonProject$get_instagram.coverage" NAME="get_instagram Coverage Results" MODIFIED="1555843183360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/pachong/instagram" />
+    <SUITE FILE_PATH="coverage/PythonProject$get_XiCiIP.coverage" NAME="get_XiCiIP Coverage Results" MODIFIED="1555750279730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo" />
+    <SUITE FILE_PATH="coverage/PythonProject$eleme_lucky.coverage" NAME="eleme_lucky Coverage Results" MODIFIED="1557549361354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/pachong" />
+    <SUITE FILE_PATH="coverage/PythonProject$ZhiHu.coverage" NAME="ZhiHu Coverage Results" MODIFIED="1564218465951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/tkinter" />
+    <SUITE FILE_PATH="coverage/PythonProject$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1557641717536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/PythonProject$config.coverage" NAME="config Coverage Results" MODIFIED="1584249086458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/wxPublic/config" />
+    <SUITE FILE_PATH="coverage/PythonProject$setWallPaper_bing.coverage" NAME="setWallPaper_bing Coverage Results" MODIFIED="1565428774946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo" />
+    <SUITE FILE_PATH="coverage/PythonProject$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1557539481440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/ttt" />
+    <SUITE FILE_PATH="coverage/PythonProject$eleme_excel_cap.coverage" NAME="eleme_excel_cap Coverage Results" MODIFIED="1556335458319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/pachong/eleme" />
+    <SUITE FILE_PATH="coverage/PythonProject$Renames.coverage" NAME="Renames Coverage Results" MODIFIED="1555849659184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo" />
+    <SUITE FILE_PATH="coverage/PythonProject$kdw.coverage" NAME="kdw Coverage Results" MODIFIED="1601033091076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/pachong/myw" />
+    <SUITE FILE_PATH="coverage/PythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1557539364573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/PythonProject$xiazai.coverage" NAME="xiazai Coverage Results" MODIFIED="1574678307233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/douyin" />
+    <SUITE FILE_PATH="coverage/PythonProject$ts.coverage" NAME="ts Coverage Results" MODIFIED="1557645429801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading_te" />
+    <SUITE FILE_PATH="coverage/PythonProject$eleme_excel_new.coverage" NAME="eleme_excel_new Coverage Results" MODIFIED="1555240018831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/pachong/eleme" />
+    <SUITE FILE_PATH="coverage/PythonProject$eleme_jk.coverage" NAME="eleme_jk Coverage Results" MODIFIED="1556361788172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/pachong/eleme" />
+    <SUITE FILE_PATH="coverage/PythonProject$2.coverage" NAME="2 Coverage Results" MODIFIED="1584275204890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本" />
+    <SUITE FILE_PATH="coverage/PythonProject$threading.coverage" NAME="threading Coverage Results" MODIFIED="1557643496022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1556938263704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/eleme" />
+    <SUITE FILE_PATH="coverage/PythonProject$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1557539118043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/PythonProject$wangpan.coverage" NAME="wangpan Coverage Results" MODIFIED="1584242202180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/baid_wangp" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1190803134">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="45" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="14" />
+          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="106" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="106" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="11" />
+          <entry key="py" value="6347" />
+          <entry key="txt" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="6346" />
+          <entry key="SQL" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/myw/kdw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>timeout=10</find>
+      <find>未知错误</find>
+      <find>xh_hongbao</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>timeout=25</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_excel_new.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/pachong/instagram/get_instagram.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/pachong/instagram/test.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/Renames.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_excel_cap.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_jk.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/eleme/config/config.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/eleme/hongbao/hongbao_jk.py" />
+        <option value="$PROJECT_DIR$/test/1.py" />
+        <option value="$PROJECT_DIR$/test/t1.py" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/test/ttt/test.py" />
+        <option value="D:/Eleme/hongbao/hongbao_jk_fqq.py" />
+        <option value="D:/Eleme/wx.py" />
+        <option value="D:/Eleme/kuq/content_get.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/pachong/eleme_lucky.py" />
+        <option value="$PROJECT_DIR$/test/t2.py" />
+        <option value="$PROJECT_DIR$/threading/threading.py" />
+        <option value="$PROJECT_DIR$/threading/threading_test.py" />
+        <option value="$PROJECT_DIR$/threading/ts.py" />
+        <option value="$PROJECT_DIR$/threading_te/ts.py" />
+        <option value="$PROJECT_DIR$/threading_te/threading_test.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/pdf/zhihu.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/pachong/api/api.py" />
+        <option value="F:/BaiduYunDownload/Eleme_bak_20191018000104/hongbao/hongbao_xh.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/douyin/xiazai.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/wzry_yy_jc.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/__init__.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/baid_wangp/wangpan.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/1.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/get_key_info.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/get_wz_yy.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/get_wz_bizhi.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/yxlm/get_lm_bizhi.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/config/api.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/1.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/removebg/remove_bg.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/2.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/copy_img.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/__init__.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/remove_bg.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/eleme/sign/sign_base.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/server.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/config/config.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/eleme/sign/login.py" />
+        <option value="$PROJECT_DIR$/PersonalDemo/pachong/myw/kdw.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-13" />
+    <option name="y" value="6" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonalDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonalDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonalDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="myw" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Django/wxPublic" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonProject\test\ttt" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.kdw">
+    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonalDemo/wxPublic/keywords" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonalDemo/wxPublic/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonalDemo/wxPublic/config/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kdw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonalDemo/pachong/myw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonalDemo/pachong/myw/kdw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.1" />
+      <item itemvalue="Python.config" />
+      <item itemvalue="Python.1 (1)" />
+      <item itemvalue="Python.2" />
+      <item itemvalue="Python.kdw" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.kdw" />
+        <item itemvalue="Python.2" />
+        <item itemvalue="Python.1 (1)" />
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36cfdba2-3ed9-4d4e-9354-1963df50c0eb" name="Default Changelist" comment="" />
+      <created>1555135867508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555135867508</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2019-04-14 17:11">
+      <created>1555233123015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555233123015</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2019-04-14 18:29">
+      <created>1555237747397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555237747397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3438178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019-04-14 17:11" />
+    <MESSAGE value="2019-04-14 18:29" />
+    <MESSAGE value="2019-04-21 18:35" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-04-21 18:35" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PersonalDemo/eleme/hongbao/hongbao_jk.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/douban_250.txt" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/get_wannianrili.py" />
+    <entry file="file://$PROJECT_DIR$/IQ/selenium/stu_subject_mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="48" selection-start-line="48" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_hb.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/setWallPaper_bing.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/eleme/qiandao.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/eleme/lingqu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/hongbao_xh.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/api/api.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/database/mysql/Examples_iq_school.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/database/mysql/designSQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/BaiduYunDownload/Eleme_bak_20191018000104/config/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/BaiduYunDownload/Eleme_bak_20191018000104/hongbao/hongbao_xh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="7" selection-start-line="7" selection-start-column="2" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/douyin/xiazai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/BaiduYunDownload/Eleme_bak_20191018000104/wx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17139">
+          <caret line="610" column="26" selection-start-line="610" selection-start-column="16" selection-end-line="610" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_bd.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/get_doutula.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/tkinter/ZhiHu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threading_te/ts.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pdf/zhihu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxpy/1.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/database/sqlite3/sqlite3_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/wzry_yy_jc.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/server1.py" />
+    <entry file="file://C:/Python36/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="895" selection-start-line="895" selection-end-line="895" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/1.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/baid_wangp/wangpan.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/yxlm/get_lm_bizhi.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/get_wzry.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/get_key_info.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/get_wz_yy.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/get_wz_bizhi.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/1.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/wzry_yy_jc.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/2.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/remove_bg.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/config/api.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/copy_img.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxpy/dingshiqi.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/dzbbs/dz/dz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/server.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/eleme/sign/sign_base.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/config/config.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/eleme/sign/login.py" />
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/get_zhihuPic_thr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2481">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/get27270.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/myw/myw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/myw/xcc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/myw/kdw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

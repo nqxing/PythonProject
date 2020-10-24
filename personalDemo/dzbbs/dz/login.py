@@ -1,0 +1,4 @@
+# post https://www.moxing.one/member.php?mod=logging&action=login&loginsubmit=yes&handlekey=login&loginhash=LilWH&inajax=1
+# data  formhash=f58bddf9&referer=https%3A%2F%2Fwww.moxing.one&username=184417622&password=4c32dbfafbf7c14f4c6846008496c693&questionid=0&answer=
+# <?xml version="1.0" encoding="utf-8"?>
+# <root><![CDATA[<script type="text/javascript" reload="1">if(typeof succeedhandle_login=='function') {succeedhandle_login('forum.php', '欢迎您回来，平民 184417622，现在将转入登录前页面', {'username':'184417622','usergroup':'平民','uid':'537213','groupid':'10','syn':'0'});}hideWindow('login');showDialog('欢迎您回来，平民 184417622，现在将转入登录前页面', 'right', null, function () { window.location.href ='forum.php'; }, 0, null, null, null, null, null, 2);</script>]]></root>

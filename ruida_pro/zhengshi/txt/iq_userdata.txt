@@ -1,0 +1,9 @@
+福清二中,fqez_admin,123456
+福州八中,fzbz_admin,fzbz123456
+厦门六中,xmlz_admin,xmlz123456
+福清融城中学,fqrc_admin,fqrc123321
+福清第三中学,fqsz_admin1,fqsz123321
+福清元洪中学,fqyh_admin,fqyh123321
+长乐华侨中学,clhq_admin,clhq123321
+福州四十中,fzssz_admin,fzssz123456
+泉州第二中心小学,qzex_admin,qzex123456

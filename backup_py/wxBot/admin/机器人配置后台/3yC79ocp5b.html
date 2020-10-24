@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>机器人信息配置</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--[if IE]>
+  		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	<div class="container">
+		<section class="content">
+			
+				<span class="input input--minoru">
+				<input value="修改文件" type="button" id="but-upName" class="but" >
+				</span>
+				<br>
+			<span class="input input--minoru">
+				<b>--签到/打卡状态修改--</b>
+			</span>
+			<form  name="form"  id="form-sign-state"/>
+				<span class="input input--minoru">
+					<input  class="input__field input__field--minoru" type="text" id="input-sign-state"  name="UpSignState" />
+					<label class="input__label input__label--minoru" for="input-13">
+						<span class="input__label-content input__label-content--minoru">微信备注（饿了么签到）</span>
+					</label>
+				</span>
+				<br>
+				<span class="input input--minoru">
+				<input value="提交" type="button" id="but-sign-state" class="but" >
+				</span>
+			</form>
+
+			<form  name="form"  id="form-daka-state"/>
+				<span class="input input--minoru">
+					<input  class="input__field input__field--minoru" type="text" id="input-daka-state"  name="UpDakaState" />
+					<label class="input__label input__label--minoru" for="input-13">
+						<span class="input__label-content input__label-content--minoru">微信备注（打卡提醒）</span>
+					</label>
+				</span>
+				<br>
+				<span class="input input--minoru">
+				<input value="提交" type="button" id="but-daka-state" class="but" >
+				</span>
+			</form>
+
+
+			<span class="input input--minoru">
+				<b>--饿了么相关--</b>
+			</span>
+			<form  name="form"  id="form-eleme"/>
+				<span id="insEleme"></span>
+				<span class="input input--minoru">
+				<input value="提交" type="button" id="but-eleme" class="but" >
+				</span>
+			</form>
+
+			<span class="input input--minoru">
+				<b>--打卡相关--</b>
+			</span>
+			<form  name="form" id="form-daka" />
+				<span id="insDaka"></span>
+				<span class="input input--minoru">
+				<input value="提交" type="button" id="but-daka" class="but" >
+				</span>
+			</form>
+
+
+
+			</section>
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+		<script src="js/wxbot.js"></script>
+		<script>
+			window.alert = function(name){
+				var iframe = document.createElement("IFRAME");
+				iframe.style.display="none";
+				iframe.setAttribute("src", 'data:text/plain,');
+				document.documentElement.appendChild(iframe);
+				window.frames[0].window.alert(name);
+				iframe.parentNode.removeChild(iframe);
+				};
+			window.confirm = function (message) {
+				var iframe = document.createElement("IFRAME");
+				iframe.style.display = "none";
+				iframe.setAttribute("src", 'data:text/plain,');
+				document.documentElement.appendChild(iframe);
+				var alertFrame = window.frames[0];
+				var result = alertFrame.window.confirm(message);
+				iframe.parentNode.removeChild(iframe);
+				return result;
+			 };
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+			
+
+
+		</script>
+	</body>
+</html>
