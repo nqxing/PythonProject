@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="36cfdba2-3ed9-4d4e-9354-1963df50c0eb" name="Default Changelist" comment="2019-04-14 18:29">
+      <change afterPath="$PROJECT_DIR$/snxun/.idea/snxun.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.idea/public.iml" beforeDir="false" afterPath="$PROJECT_DIR$/public/.idea/public.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalDemo/wzry_audio_bytes/tools/bnkextr.exe" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,80 +58,6 @@
     <SUITE FILE_PATH="coverage/PythonProject$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1557539118043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/PythonProject$wangpan.coverage" NAME="wangpan Coverage Results" MODIFIED="1584242202180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/baid_wangp" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1190803134">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="45" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="5" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="14" />
-          <entry key="project.open.time.7" value="8" />
-          <entry key="project.open.time.8" value="7" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="46" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="107" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="107" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="11" />
-          <entry key="py" value="6349" />
-          <entry key="txt" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="6348" />
-          <entry key="SQL" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personalDemo/pachong/myw/kdw.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-504">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/personalDemo/set_bihzi/setWallPaper_bing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -135,107 +78,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_excel_new.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/pachong/instagram/get_instagram.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/pachong/instagram/test.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/Renames.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_excel_cap.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_jk.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/eleme/config/config.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/eleme/hongbao/hongbao_jk.py" />
-        <option value="$PROJECT_DIR$/test/1.py" />
-        <option value="$PROJECT_DIR$/test/t1.py" />
-        <option value="$PROJECT_DIR$/test/test.py" />
-        <option value="$PROJECT_DIR$/test/ttt/test.py" />
-        <option value="D:/Eleme/hongbao/hongbao_jk_fqq.py" />
-        <option value="D:/Eleme/wx.py" />
-        <option value="D:/Eleme/kuq/content_get.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/pachong/eleme_lucky.py" />
-        <option value="$PROJECT_DIR$/test/t2.py" />
-        <option value="$PROJECT_DIR$/threading/threading.py" />
-        <option value="$PROJECT_DIR$/threading/threading_test.py" />
-        <option value="$PROJECT_DIR$/threading/ts.py" />
-        <option value="$PROJECT_DIR$/threading_te/ts.py" />
-        <option value="$PROJECT_DIR$/threading_te/threading_test.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/pdf/zhihu.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/pachong/api/api.py" />
-        <option value="F:/BaiduYunDownload/Eleme_bak_20191018000104/hongbao/hongbao_xh.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/douyin/xiazai.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/wzry_yy_jc.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/__init__.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/baid_wangp/wangpan.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/1.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/get_key_info.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/get_wz_yy.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/get_wz_bizhi.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/yxlm/get_lm_bizhi.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/config/api.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/1.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/removebg/remove_bg.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/2.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/copy_img.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/__init__.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/remove_bg.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/eleme/sign/sign_base.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/server.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/config/config.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/wxPublic/eleme/sign/login.py" />
-        <option value="$PROJECT_DIR$/PersonalDemo/pachong/myw/kdw.py" />
-        <option value="$PROJECT_DIR$/personalDemo/pachong/myw/kdw.py" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="5" />
-    <option name="width" value="1938" />
-    <option name="height" value="1058" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="添加" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
-              <item name="personalDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
-              <item name="personalDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="set_bihzi" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1jOduSsaVqbXbdFWSni2x07k23v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mirai" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/snxun" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -244,18 +102,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PythonProject\test\ttt" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.setWallPaper_bing">
     <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -369,9 +215,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.config" />
       <item itemvalue="Python.1 (1)" />
       <item itemvalue="Python.2" />
+      <item itemvalue="Python.config" />
       <item itemvalue="Python.kdw" />
       <item itemvalue="Python.setWallPaper_bing" />
     </list>
@@ -385,6 +231,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -413,33 +260,6 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16621985" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3427762" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.329718" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -448,26 +268,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -477,6 +283,12 @@
     <MESSAGE value="2019-04-14 18:29" />
     <MESSAGE value="2019-04-21 18:35" />
     <option name="LAST_COMMIT_MESSAGE" value="2019-04-21 18:35" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1603705924060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603705924060" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,172 +300,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/get_wannianrili.py" />
-    <entry file="file://$PROJECT_DIR$/IQ/selenium/stu_subject_mobile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="48" selection-start-line="48" selection-end-line="49" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_hb.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/setWallPaper_bing.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/eleme/qiandao.py" />
-    <entry file="file://$PROJECT_DIR$/personalDemo/pachong/eleme/lingqu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/hongbao_xh.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/api/api.py" />
-    <entry file="file://$PROJECT_DIR$/personalDemo/pachong/database/mysql/Examples_iq_school.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalDemo/pachong/database/mysql/designSQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/BaiduYunDownload/Eleme_bak_20191018000104/config/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/BaiduYunDownload/Eleme_bak_20191018000104/hongbao/hongbao_xh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="7" selection-start-line="7" selection-start-column="2" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalDemo/douyin/xiazai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/BaiduYunDownload/Eleme_bak_20191018000104/wx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17139">
-          <caret line="610" column="26" selection-start-line="610" selection-start-column="16" selection-end-line="610" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/eleme/eleme_bd.py" />
-    <entry file="file://$PROJECT_DIR$/personalDemo/get_doutula.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalDemo/tkinter/ZhiHu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threading_te/ts.py" />
-    <entry file="file://$PROJECT_DIR$/personalDemo/pdf/zhihu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxpy/1.py" />
-    <entry file="file://$PROJECT_DIR$/personalDemo/pachong/database/sqlite3/sqlite3_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/wzry_yy_jc.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/server1.py" />
-    <entry file="file://C:/Python36/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="895" selection-start-line="895" selection-end-line="895" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/1.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/baid_wangp/wangpan.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/yxlm/get_lm_bizhi.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/pachong/get_wzry.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/keywords/get_key_info.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/get_wz_yy.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/wzry/get_wz_bizhi.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/1.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/wzry_yy_jc.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/2.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/remove_bg.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/config/api.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/removebk/copy_img.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxpy/dingshiqi.py" />
-    <entry file="file://$PROJECT_DIR$/personalDemo/dzbbs/dz/dz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/server.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/eleme/sign/sign_base.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/config/config.py" />
-    <entry file="file://$PROJECT_DIR$/PersonalDemo/wxPublic/eleme/sign/login.py" />
-    <entry file="file://$PROJECT_DIR$/personalDemo/get_zhihuPic_thr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2481" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalDemo/get27270.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalDemo/pachong/myw/myw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalDemo/pachong/myw/xcc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalDemo/pachong/myw/kdw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalDemo/set_bihzi/setWallPaper_bing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
