@@ -480,6 +480,17 @@ class MysqlSearch(object):
         cursor.close()
         self.close_conn()
         return values
+    def select_wz_win_rates(self):
+        sql = "SELECT cx_value,hero_name FROM pub_wz_win_rate WHERE cx_name = '胜率排行榜'"
+        # 找到cursor
+        cursor = self.conn.cursor()
+        # 执行SQL
+        cursor.execute(sql)
+        values = cursor.fetchall()
+        # 关闭cursor/链接
+        cursor.close()
+        self.close_conn()
+        return values[0][0]
     def select_wz_skill(self, where):
         sql = "SELECT cx_value,hero_name FROM pub_wz_skill WHERE cx_name = '{}'".format(where)
         # 找到cursor

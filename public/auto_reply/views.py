@@ -44,10 +44,10 @@ def auto_reply(request):
                     content = xml.find('Content').text.strip()
                     # 获取向服务器发送的消息
                     # 返回数据包xml的文本回复格式
-                    if action_dict[fromUser] == 'wzry_bz':
-                        return reply_con_xml(action_dict, eleme_sign_dict, eleme_sign_cap_dict, url_sc_dict, content, fromUser, toUser, "wzbz")
-                    if action_dict[fromUser] == 'wzry_yy':
-                        return reply_con_xml(action_dict, eleme_sign_dict, eleme_sign_cap_dict, url_sc_dict, content, fromUser, toUser, "wzyy")
+                    if action_dict[fromUser] == 'wzry':
+                        return reply_con_xml(action_dict, eleme_sign_dict, eleme_sign_cap_dict, url_sc_dict, content, fromUser, toUser, "wz")
+                    # if action_dict[fromUser] == 'wzry_yy':
+                    #     return reply_con_xml(action_dict, eleme_sign_dict, eleme_sign_cap_dict, url_sc_dict, content, fromUser, toUser, "wzyy")
                     if action_dict[fromUser] == 'yxlm_bz':
                         return reply_con_xml(action_dict, eleme_sign_dict, eleme_sign_cap_dict, url_sc_dict, content, fromUser, toUser, "lmbz")
                     if action_dict[fromUser] == 'eleme_sign':

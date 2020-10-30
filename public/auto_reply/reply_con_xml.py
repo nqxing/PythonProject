@@ -1,4 +1,4 @@
-from auto_reply.package.wz_wall_get import return_wzSkin
+from auto_reply.package.wz_main import wz_reply
 from auto_reply.package.wz_voice_get import return_wzYy
 from auto_reply.package.lol_wall_get import return_lmSkin
 from auto_reply.package.ele_sign_base import *
@@ -72,10 +72,10 @@ def reply_con_xml(action_dict, eleme_sign_dict, eleme_sign_cap_dict, url_sc_dict
         r = HttpResponse(news_str)
         return r
     else:
-        if funName == 'wzbz':
-            reply_content = return_wzSkin(content)+END_STR
-        elif funName == 'wzyy':
-            reply_content = return_wzYy(content)+END_STR
+        if funName == 'wz':
+            reply_content = wz_reply(content)+END_STR
+        # elif funName == 'wzyy':
+        #     reply_content = return_wzYy(content)+END_STR
         elif funName == 'urlSC':
             if content == '3':
                 reply_content = "生成二维码，请在5分钟内回复你要生成的内容或网址链接（若是网址请一定记得加http://或https://哦）"+END_STR

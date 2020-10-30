@@ -125,7 +125,8 @@ def reply(text, msg, beizhu, sender):
                 results = SQL().select_wz_win_rate(text.strip())
                 if results:
                     t = ruturn_tip('sl')
-                    rep_str = '{}||{}'.format(results[0][0], t.format(results[0][1], results[0][1])).replace('|', '\n')
+                    wins = SQL().select_wz_win_rates()
+                    rep_str = '{}{}||{}'.format(results[0][0], wins, t.format(results[0][1], results[0][1])).replace('|', '\n')
                     msg.reply(rep_str.strip())
             elif '技能' in text:
                 results = SQL().select_wz_skill(text.strip())
@@ -169,8 +170,8 @@ def reply(text, msg, beizhu, sender):
                     t = ruturn_tip('jq')
                     rep_str = '{}||{}'.format(results[0][0], t.format(results[0][1], results[0][1])).replace('|', '\n')
                     msg.reply(rep_str.strip())
-            elif '投票排行榜' == text:
-                msg.reply(index_wqg())
+            # elif '投票排行榜' == text:
+            #     msg.reply(index_wqg())
             else:
                 pass
 

@@ -17,6 +17,19 @@ class UPWZHeroInfo(View):
         # else:
         #     return HttpResponse(status=400)
 
+def sort_key(s):
+    # 排序关键字匹配
+    # 匹配数字序号
+    if s:
+        try:
+            c = re.findall(r'\d+\.\d+', s)[0]
+        except:
+            c = -1
+        return float(c)
+def strsort(alist):
+    alist.sort(key=sort_key)
+    return alist
+
 def get_hero_json(hero_id):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
@@ -396,5 +409,48 @@ def run_main():
                     else:
                         skin.hero_name_bm = hero_name_bms
                         skin.save()
+
+        #  20201030新增英雄胜率前十排行榜
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+        }
+        url = 'https://camp.qq.com/h5/statichtml/hero-rank.html'
+        r = requests.get(url, headers=headers)
+        r.encoding = 'utf-8'
+        rows = pq(r.text)('.table-grid_body .table-grid_body-row').items()
+        times = pq(r.text)('.time').text()
+        wins = []
+        for row in rows:
+            cells = row('.table-grid_body-cell').items()
+            hero_name, win = None, None
+            for i, cell in enumerate(cells):
+                if i == 0:
+                    hero_name = cell('.hero-single .hero-info .hero-name').text()
+                if i == 2:
+                    win = cell.text()
+            if hero_name != None and win != None:
+                wins.append('|【{}】{}'.format(hero_name, win))
+        wins = strsort(wins)
+        win_str = '||---全服前十胜率排行榜---'
+        for i, win in enumerate(reversed(wins)):
+            win_str += win
+            if i == 9:
+                break
+        print(win_str)
+        winRate_values = pubWZwinRate.objects.filter(cx_name="胜率排行榜")
+        if winRate_values.exists():
+            winRate_value = winRate_values[0]
+            if win_str != winRate_value.cx_value:
+                winRate_value.cx_value = win_str
+                winRate_value.update_time_str = times
+                winRate_value.save()
+        else:
+            pub = pubWZwinRate()
+            pub.cx_name = "胜率排行榜"
+            pub.cx_value = win_str
+            pub.hero_name = "全英雄"
+            pub.hero_id = 1000
+            pub.update_time_str = times
+            pub.save()
     except:
         write_log(3, traceback.format_exc())
