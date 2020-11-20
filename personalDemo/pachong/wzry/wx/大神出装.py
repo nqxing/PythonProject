@@ -7,7 +7,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # HOST = 'localhost'
-HOST = '122.51.67.37'
+HOST = '116.62.126.139'
 USER = 'root'
 # PWD = 'MUGVHmugvtwja116ye38b1jhb'
 PWD = 'mm123456'
@@ -28,14 +28,14 @@ headers = {
 	"Referer": "https://game.weixin.qq.com/cgi-bin/h5/static/zone/hero.html?keyword=%E4%B8%8A%E5%AE%98%E5%A9%89%E5%84%BF&ssid=2103&appid=wx95a3a4d7c627e07d&game_hero_id=513&hero_id=153",
 	"Accept-Encoding": "gzip, deflate, br",
 	"Accept-Language": "zh-CN,zh;q=0.9",
-	"Cookie": "uin=Nzc0MjkzNTIy; key=fc8f003c4b06af77d4ead99ebb3372759880c9d08e5fe7e79f4278bb313319a301ff2743207caf58e59b351434ece422eb0135fc1d617db67413d2829cf847c528d81a101fecfa7468d26662efbc5b0d; pass_ticket=yW8O1w685iGnWQuqNQnVNLdxKqB721v5mQDZqTH8n4XuYdZ6xJDL4xGb7KFkbHNw"
+	"Cookie": "RK=gB6x/YRCYi; ptcz=af4f2846d273f3f25641cbc5a5901068a616cf960e8eaca02522f8bbd8874547; pgv_pvi=5937380352; pt_sms_phone=180******08; iip=0; pgv_pvid=4375062316; o_cookie=513662932; pac_uid=1_513662932; tvfe_boss_uuid=14ec4cb3fba9d7cd; cookie_passkey=1; uin=Nzc0MjkzNTIy; pass_ticket=GnpmXbDQPY7SIVs8uXhw3Ij%2BWAsdAo5ZTuZTnvwkt9Nd218iECT55q4WrqbeaS33; key=94af0d4a7c8348d533767c7bdc487aefe29019287a090e0d6afd859ef4390111ef7558c7068fdde62ff60d4d9e4ac9052cc444572bb44b6a0b86057f98a1c64321726e56af777c8816911ffe64c57d3431e12882097ca2515439086fed2b842a9c17335c8ca436a35b9dd67d6f87cbe4bbc45d119e10f8335d46c7365d3a05b2"
 }
 
 
 mysql_cursor.execute('select * from pub_wz_hero_name')
 values = mysql_cursor.fetchall()
 for v in values:
-	print(v)
+	# print(v)
 	csHeroInfo = ''
 	god_equips = ''
 	hero_name_bm = v[3]
@@ -55,6 +55,7 @@ for v in values:
 		"limit": 10
 	}
 	herotpl = requests.post('https://game.weixin.qq.com/cgi-bin/gamewap/gameherotpl', headers=headers, json=jsondata1, verify=False).json()
+	# print(herotpl)
 	if herotpl['errmsg'] == 'ok':
 		html_tpl = herotpl['hero_tpl']['html_tpl']
 		texts = re.findall('<div class="hero__info-content">(.*?)</div>', html_tpl, re.S)
@@ -69,6 +70,7 @@ for v in values:
 			# print(csHeroInfo)
 
 	herogoddata = requests.post('https://game.weixin.qq.com/cgi-bin/gamewap/gameherogoddata?uin=&key=&pass_ticket=&QB&', headers=headers, json=jsondata2, verify=False).json()
+	# print(herogoddata)
 	if herogoddata['errmsg'] == 'ok':
 		god_equip_list = herogoddata['great_god_equip']['god_equip_list']
 		for i,g in enumerate(god_equip_list):
@@ -87,6 +89,10 @@ for v in values:
 			god_equips += equips
 			if i == 2:
 				break
+	print('-------------------------------------------')
+	print(hero_cxNames)
+	print(god_equips)
+	print(csHeroInfo)
 	for h in hero_cxNames:
 		hs1 = '{}出装'.format(h)
 		mysql_cursor.execute('''select * from pub_wz_equip where cx_name = "{}"'''.format(hs1))

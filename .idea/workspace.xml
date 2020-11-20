@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36cfdba2-3ed9-4d4e-9354-1963df50c0eb" name="Default Changelist" comment="2019-04-14 18:29">
-      <change afterPath="$PROJECT_DIR$/snxun/.idea/snxun.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personalDemo/wzry_audio_bytes/tools/bnkextr.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalDemo/pachong/down_wz_wall.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalDemo/pachong/down_wz_wall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snxun/dataReady/datared_mongodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/snxun/dataReady/datared_mongodb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +105,8 @@
       <recent name="D:\PythonProject\test\ttt" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.setWallPaper_bing">
-    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.find_mongo">
+    <configuration name="大神出装" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,12 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personalDemo/pachong/wzry/wx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="down_wz_wall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,12 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personalDemo/pachong" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonalDemo/wxPublic/用到的脚本/2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/pachong/down_wz_wall.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_mongo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,12 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonalDemo/wxPublic/config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personalDemo/douyin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonalDemo/wxPublic/config/config.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/douyin/find_mongo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,19 +214,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1 (1)" />
-      <item itemvalue="Python.2" />
-      <item itemvalue="Python.config" />
+      <item itemvalue="Python.大神出装" />
+      <item itemvalue="Python.down_wz_wall" />
       <item itemvalue="Python.kdw" />
       <item itemvalue="Python.setWallPaper_bing" />
+      <item itemvalue="Python.find_mongo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.find_mongo" />
+        <item itemvalue="Python.down_wz_wall" />
+        <item itemvalue="Python.大神出装" />
         <item itemvalue="Python.setWallPaper_bing" />
         <item itemvalue="Python.kdw" />
-        <item itemvalue="Python.2" />
-        <item itemvalue="Python.1 (1)" />
-        <item itemvalue="Python.config" />
       </list>
     </recent_temporary>
   </component>
@@ -275,9 +274,6 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019-04-14 17:11" />
     <MESSAGE value="2019-04-14 18:29" />
@@ -289,6 +285,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603705924060" />
+    <state width="1898" height="289" key="GridCell.Tab.0.bottom" timestamp="1605856863846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605856863846" />
+    <state width="1898" height="289" key="GridCell.Tab.0.center" timestamp="1605856863846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="289" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605856863846" />
+    <state width="1898" height="289" key="GridCell.Tab.0.left" timestamp="1605856863846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="289" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605856863846" />
+    <state width="1898" height="289" key="GridCell.Tab.0.right" timestamp="1605856863846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605856863846" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

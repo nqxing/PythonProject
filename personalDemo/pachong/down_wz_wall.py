@@ -48,10 +48,15 @@ def down_wall(skin_name, skin_url, mob_skin_url, hero_name, game, skin_size):
     except:
         print(traceback.format_exc())
 
-mysql_conn = pymysql.connect(host="122.51.67.37", user="root", password="mm123456", port=3306, db='public')
+mysql_conn = pymysql.connect(host="116.62.126.139", user="root", password="mm123456", port=3306, db='public')
 mysql_cursor = mysql_conn.cursor()  # 获取游标
 
-mysql_cursor.execute("select * from pub_wz_wall")
+# mysql_cursor.execute("select * from pub_wz_wall")
+# values = mysql_cursor.fetchall()
+# for v in values:
+#     down_wall(v[1], v[2], v[7], v[3], 'wzry', None)
+
+mysql_cursor.execute("select * from pub_lol_wall")
 values = mysql_cursor.fetchall()
 for v in values:
-    down_wall(v[1], v[2], v[7], v[3], 'wzry', None)
+    down_wall(v[1], v[2], None, v[3], 'yxlm', None)

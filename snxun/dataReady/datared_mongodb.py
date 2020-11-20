@@ -4,7 +4,7 @@ from dataReady.init import *
 myclient = pymongo.MongoClient("mongodb://116.62.126.139:27017/")
 mydb = myclient["runoobdb"]
 mycol = mydb["user"]
-usernames = Rname(15000)
+usernames = Rname(15)
 mylist = []
 for i,u in enumerate(usernames):
     bloodtype = Bloodtype[random.randint(0, len(Bloodtype) - 1)]
