@@ -45,9 +45,11 @@ def ruturn_tip(name):
 
 # 初始化机器人，扫码登陆
 # bot = Bot(cache_path=True)
+
+# linux启动
 bot = Bot(console_qr=True, cache_path=True)
-# bot = Bot()
-bot.enable_puid('wxpy_puid.pkl')
+
+# bot.enable_puid('wxpy_puid.pkl')
 
 def reply(text, msg, beizhu, sender):
     try:

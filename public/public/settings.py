@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'auto_reply',
     'keys_admin',
     'robot',
+    'short_url',
 ]
 
 MIDDLEWARE = [
@@ -84,8 +85,8 @@ DATABASES = {
         'NAME': 'public',
         'USER': 'root',
         'PASSWORD': 'mm123456',
-        # 'PASSWORD': 'MUGVHmugvtwja116ye38b1jhb',
         'HOST': '127.0.0.1',
+        # 'HOST': '116.62.126.139',
         'PORT': '3306'
     }
 }

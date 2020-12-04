@@ -29,6 +29,7 @@ urlpatterns = [
     path('autoReply/', auto_reply),
     path('wall/', include('robot.urls')),
     path('robot/', include('robot.urls')),
+    path('s/', include('short_url.urls')),
     path('ele_sign/', BindEleSignMobile.as_view()),
     #以下生产环境开启
     url(r'^static/(?P<path>.*)$', serve, {'document_root': STATIC_ROOT})

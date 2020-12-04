@@ -25,8 +25,19 @@ def slal(url):
     else:
         return -1
 
+def zuiqu(url):
+    dict = {
+        "long": url,
+        "period": "长期"
+    }
+    r = requests.post("http://zuiqu.net/s/addShortUrl/", data=dict).json()
+    if r['status'] == 100:
+        return r['msg']
+    else:
+        return -1
+
 def wz():
-    mysql_conn = pymysql.connect(host="122.51.67.37", user="root", password="mm123456", port=3306, db='public')
+    mysql_conn = pymysql.connect(host="116.62.126.139", user="root", password="mm123456", port=3306, db='public')
     # mysql_conn = pymysql.connect(host="localhost", user="root", password="123456", port=3306, db='public')
     mysql_cursor = mysql_conn.cursor()  # 获取游标
     mysql_cursor.execute("select * from pub_wz_wall")
@@ -36,13 +47,13 @@ def wz():
         if v[2] != None:
             # r1 = tinyurl(v[2])
             # r1 = tcn(v[2])
-            r1 = 'https://sl.al/{}'.format(slal(v[2]))
+            r1 = 'http://zuiqu.net/s/{}'.format(zuiqu(v[2]))
         else:
             r1 = -1
         if v[7] != None:
             # r2 = tinyurl(v[7])
             # r2 = tcn(v[7])
-            r2 = 'https://sl.al/{}'.format(slal(v[7]))
+            r2 = 'http://zuiqu.net/s/{}'.format(zuiqu(v[7]))
         else:
             r2 = -1
         if r1 != -1 and r2 != -1:
@@ -51,11 +62,12 @@ def wz():
             mysql_cursor.execute(sql)
             mysql_conn.commit()
             # print('{}更新完毕'.format(id))
+            print(r1,r2)
         else:
             print(v)
 
 def lol():
-    mysql_conn = pymysql.connect(host="122.51.67.37", user="root", password="mm123456", port=3306, db='public')
+    mysql_conn = pymysql.connect(host="116.62.126.139", user="root", password="mm123456", port=3306, db='public')
     # mysql_conn = pymysql.connect(host="localhost", user="root", password="123456", port=3306, db='public')
     mysql_cursor = mysql_conn.cursor()  # 获取游标
     mysql_cursor.execute("select * from pub_lol_wall")
@@ -63,7 +75,7 @@ def lol():
     for v in values:
         id = v[0]
         if v[2] != None:
-            r1 = tinyurl(v[2])
+            r1 = 'http://zuiqu.net/s/{}'.format(zuiqu(v[2]))
         else:
             r1 = -1
         if r1 != -1:
@@ -71,8 +83,9 @@ def lol():
             mysql_cursor.execute(sql)
             mysql_conn.commit()
             # print('{}更新完毕'.format(id))
+            print(r1)
         else:
             print(v)
 
-# lol()
-wz()
+lol()
+# wz()

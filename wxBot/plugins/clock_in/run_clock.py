@@ -26,9 +26,10 @@ def clock(bot):
     # if sign_time == '00:00':
     #     SQL().up_state()
 
-    if sign_time == '01:00':
-        # 该方法是异步执行 备份sql
-        bak_sql_index()
+    # if sign_time == '01:00':
+    #     # 该方法是异步执行 备份sql
+    #     bak_sql_index()
+
     # 该方法是异步执行 发送王者、英雄联盟新闻和更新的新壁纸信息
     push_game_index(bot)
 

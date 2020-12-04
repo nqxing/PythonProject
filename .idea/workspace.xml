@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36cfdba2-3ed9-4d4e-9354-1963df50c0eb" name="Default Changelist" comment="2019-04-14 18:29">
-      <change afterPath="$PROJECT_DIR$/aweme/.idea/aweme.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personalDemo/douyin/find_mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalDemo/douyin/find_mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kuq/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalDemo/数据迁移/url_to_tinyurl.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalDemo/数据迁移/url_to_tinyurl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/auto_reply/config/fun_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/auto_reply/config/fun_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/public/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/public/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxBot/plugins/clock_in/run_clock.py" beforeDir="false" afterPath="$PROJECT_DIR$/wxBot/plugins/clock_in/run_clock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxBot/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/wxBot/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,28 +98,7 @@
       <recent name="D:\PythonProject\test\ttt" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.find_mongo">
-    <configuration name="大神出装" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personalDemo/pachong/wzry/wx" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.url_to_tinyurl">
     <configuration name="down_wz_wall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="setWallPaper_bing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,12 +170,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personalDemo/set_bihzi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personalDemo/数据迁移" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/set_bihzi/setWallPaper_bing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/数据迁移/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="url_to_tinyurl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personalDemo/数据迁移" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/数据迁移/url_to_tinyurl.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,19 +205,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.大神出装" />
       <item itemvalue="Python.down_wz_wall" />
-      <item itemvalue="Python.setWallPaper_bing" />
       <item itemvalue="Python.find_mongo" />
       <item itemvalue="Python.get_aweme" />
+      <item itemvalue="Python.tests" />
+      <item itemvalue="Python.url_to_tinyurl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.url_to_tinyurl" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.find_mongo" />
         <item itemvalue="Python.get_aweme" />
         <item itemvalue="Python.down_wz_wall" />
-        <item itemvalue="Python.大神出装" />
-        <item itemvalue="Python.setWallPaper_bing" />
       </list>
     </recent_temporary>
   </component>
@@ -272,26 +276,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606270813982" />
-    <state width="1898" height="412" key="GridCell.Tab.0.bottom" timestamp="1606470104102">
+    <state width="1898" height="204" key="GridCell.Tab.0.bottom" timestamp="1607072848817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1578" height="238" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606203071712" />
-    <state width="1898" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606470104102" />
-    <state width="1898" height="412" key="GridCell.Tab.0.center" timestamp="1606470104102">
+    <state width="1898" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607072848817" />
+    <state width="1898" height="204" key="GridCell.Tab.0.center" timestamp="1607072848817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1578" height="238" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606203071712" />
-    <state width="1898" height="412" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606470104102" />
-    <state width="1898" height="412" key="GridCell.Tab.0.left" timestamp="1606470104101">
+    <state width="1898" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607072848817" />
+    <state width="1898" height="204" key="GridCell.Tab.0.left" timestamp="1607072848817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1578" height="238" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606203071712" />
-    <state width="1898" height="412" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606470104101" />
-    <state width="1898" height="412" key="GridCell.Tab.0.right" timestamp="1606470104102">
+    <state width="1898" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607072848817" />
+    <state width="1898" height="204" key="GridCell.Tab.0.right" timestamp="1607072848817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1578" height="238" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606203071712" />
-    <state width="1898" height="412" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606470104102" />
+    <state width="1898" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607072848817" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606189613904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4370a2-17a2-46d0-beb0-0b3f2204602b" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/PythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/qqBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qqBot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../personalDemo/数据迁移/url_to_tinyurl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../personalDemo/数据迁移/url_to_tinyurl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/public/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public/public/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/public/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public/public/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wxBot/plugins/clock_in/run_clock.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wxBot/plugins/clock_in/run_clock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wxBot/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wxBot/server.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,101 +20,6 @@
     <SUITE FILE_PATH="coverage/qqBot$config.coverage" NAME="config Coverage Results" MODIFIED="1588055030514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/qqBot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1587978461003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/qqBot$server.coverage" NAME="server Coverage Results" MODIFIED="1588147473912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1449254649">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2328">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/pub_fun/sql_all.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="167" column="19" selection-start-line="167" selection-start-column="19" selection-end-line="167" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1592464356682" expanded="true" signature="747:810" ph="select bind_... pub_card_users" />
-                <marker date="1592464356682" expanded="true" signature="1110:1168" ph="select state... pub_card_users" />
-                <marker date="1592464356682" expanded="true" signature="1465:1517" ph="update pub_card_users... " />
-                <marker date="1592464356682" expanded="true" signature="1790:1842" ph="update pub_card_users... " />
-                <marker date="1592464356682" expanded="true" signature="2137:2220" ph="update pub_card_users... " />
-                <marker date="1592464356682" expanded="true" signature="2534:2601" ph="select bind_... pub_ele_sign_users" />
-                <marker date="1592464356682" expanded="true" signature="2900:2959" ph="select state... pub_ele_sign_users" />
-                <marker date="1592464356682" expanded="true" signature="3255:3311" ph="update pub_ele_sign_users... " />
-                <marker date="1592464356682" expanded="true" signature="3583:3639" ph="update pub_ele_sign_users... " />
-                <marker date="1592464356682" expanded="true" signature="3933:4004" ph="SELECT wx_op... pub_bind_users" />
-                <marker date="1592464356682" expanded="true" signature="4311:4363" ph="SELECT bind_... pub_bind_users" />
-                <marker date="1592464356682" expanded="true" signature="4556:4627" ph="update pub_bind_users... " />
-                <marker date="1592464356682" expanded="true" signature="4930:4986" ph="SELECT * FRO... pub_ele_sign_users" />
-                <marker date="1592464356682" expanded="true" signature="5020:5072" ph="SELECT * FRO... pub_card_users" />
-                <marker date="1592464356682" expanded="true" signature="5267:5347" ph="update pub_ele_sign_users... " />
-                <marker date="1592464356682" expanded="true" signature="5595:5671" ph="update pub_card_users... " />
-                <marker date="1592464356682" expanded="true" signature="5970:6031" ph="SELECT wx_op... pub_bind_users" />
-                <marker date="1592464356682" expanded="true" signature="6344:6424" ph="SELECT * FRO... pub_wz_wall" />
-                <marker date="1592464356682" expanded="true" signature="6710:6777" ph="SELECT cx_va... pub_wz_win_rate" />
-                <marker date="1592464356682" expanded="true" signature="7074:7138" ph="SELECT cx_va... pub_wz_skill" />
-                <marker date="1592464356682" expanded="true" signature="7435:7509" ph="SELECT cx_va... pub_wz_equip" />
-                <marker date="1592464356682" expanded="true" signature="7805:7868" ph="SELECT cx_va... pub_wz_rune" />
-                <marker date="1592464356682" expanded="true" signature="8162:8223" ph="SELECT cx_va... pub_wz_kz" />
-                <marker date="1592464356682" expanded="true" signature="8524:8592" ph="SELECT cx_va... pub_wz_introduce" />
-                <marker date="1592464356682" expanded="true" signature="8886:8947" ph="SELECT cx_va... pub_wz_zh" />
-                <marker date="1592464356682" expanded="true" signature="9240:9305" ph="SELECT cx_va... pub_wz_skills" />
-                <marker date="1592464356682" expanded="true" signature="9602:9657" ph="select var_i... pub_var_list" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,74 +51,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/plugins/bizhi/get_wz_bizhi.py" />
-        <option value="$PROJECT_DIR$/bot.py" />
-        <option value="$PROJECT_DIR$/plugins/ele_sign/sign_base.py" />
-        <option value="$PROJECT_DIR$/plugins/clock_in/clock_base.py" />
-        <option value="$PROJECT_DIR$/plugins/pub_fun/fun_api.py" />
-        <option value="$PROJECT_DIR$/plugins/pub_fun/sql_all.py" />
-        <option value="$PROJECT_DIR$/plugins/main.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="5" />
-    <option name="width" value="1937" />
-    <option name="height" value="1057" />
-  </component>
+  <component name="ProjectId" id="1lAqQAMzxveDgy2kDMZLpKUiu3I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="qqBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qqBot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qqBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qqBot" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.server">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -306,9 +161,9 @@
     </configuration>
     <list>
       <item itemvalue="Python.bot" />
+      <item itemvalue="Python.config" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.server" />
-      <item itemvalue="Python.config" />
     </list>
     <recent_temporary>
       <list>
@@ -319,6 +174,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -332,138 +188,10 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19906166" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="调试" order="0" />
-      <window_info anchor="bottom" id="运行" order="1" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../wxBot/eleme/hongbao/hongbao_cx.py" />
-    <entry file="file://$PROJECT_DIR$/bot.py" />
-    <entry file="file://$PROJECT_DIR$/qqBot.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/ele_sign/sign_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/clock_in/clock_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1142">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/bizhi/get_wz_bizhi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/pub_fun/fun_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#23#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2328">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/pub_fun/sql_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="167" column="19" selection-start-line="167" selection-start-column="19" selection-end-line="167" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1592464356682" expanded="true" signature="747:810" ph="select bind_... pub_card_users" />
-            <marker date="1592464356682" expanded="true" signature="1110:1168" ph="select state... pub_card_users" />
-            <marker date="1592464356682" expanded="true" signature="1465:1517" ph="update pub_card_users... " />
-            <marker date="1592464356682" expanded="true" signature="1790:1842" ph="update pub_card_users... " />
-            <marker date="1592464356682" expanded="true" signature="2137:2220" ph="update pub_card_users... " />
-            <marker date="1592464356682" expanded="true" signature="2534:2601" ph="select bind_... pub_ele_sign_users" />
-            <marker date="1592464356682" expanded="true" signature="2900:2959" ph="select state... pub_ele_sign_users" />
-            <marker date="1592464356682" expanded="true" signature="3255:3311" ph="update pub_ele_sign_users... " />
-            <marker date="1592464356682" expanded="true" signature="3583:3639" ph="update pub_ele_sign_users... " />
-            <marker date="1592464356682" expanded="true" signature="3933:4004" ph="SELECT wx_op... pub_bind_users" />
-            <marker date="1592464356682" expanded="true" signature="4311:4363" ph="SELECT bind_... pub_bind_users" />
-            <marker date="1592464356682" expanded="true" signature="4556:4627" ph="update pub_bind_users... " />
-            <marker date="1592464356682" expanded="true" signature="4930:4986" ph="SELECT * FRO... pub_ele_sign_users" />
-            <marker date="1592464356682" expanded="true" signature="5020:5072" ph="SELECT * FRO... pub_card_users" />
-            <marker date="1592464356682" expanded="true" signature="5267:5347" ph="update pub_ele_sign_users... " />
-            <marker date="1592464356682" expanded="true" signature="5595:5671" ph="update pub_card_users... " />
-            <marker date="1592464356682" expanded="true" signature="5970:6031" ph="SELECT wx_op... pub_bind_users" />
-            <marker date="1592464356682" expanded="true" signature="6344:6424" ph="SELECT * FRO... pub_wz_wall" />
-            <marker date="1592464356682" expanded="true" signature="6710:6777" ph="SELECT cx_va... pub_wz_win_rate" />
-            <marker date="1592464356682" expanded="true" signature="7074:7138" ph="SELECT cx_va... pub_wz_skill" />
-            <marker date="1592464356682" expanded="true" signature="7435:7509" ph="SELECT cx_va... pub_wz_equip" />
-            <marker date="1592464356682" expanded="true" signature="7805:7868" ph="SELECT cx_va... pub_wz_rune" />
-            <marker date="1592464356682" expanded="true" signature="8162:8223" ph="SELECT cx_va... pub_wz_kz" />
-            <marker date="1592464356682" expanded="true" signature="8524:8592" ph="SELECT cx_va... pub_wz_introduce" />
-            <marker date="1592464356682" expanded="true" signature="8886:8947" ph="SELECT cx_va... pub_wz_zh" />
-            <marker date="1592464356682" expanded="true" signature="9240:9305" ph="SELECT cx_va... pub_wz_skills" />
-            <marker date="1592464356682" expanded="true" signature="9602:9657" ph="select var_i... pub_var_list" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

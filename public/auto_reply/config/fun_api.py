@@ -250,12 +250,29 @@ def short_url_new(urls):
     #     else:
     #         return urls
 
-    short_link = short_souurl(urls)
+    short_link = short_zuiqu(urls)
     if short_link != -1:
         return short_link
     else:
         return urls
 
+def short_zuiqu(urls):
+    dict = {
+        "long": urls,
+        "period": "长期"
+    }
+
+    try:
+        r = requests.post("http://zuiqu.net/s/addShortUrl/", data=dict).json()
+        if r['status'] == 100:
+            return 'http://zuiqu.net/s/{}'.format(r['msg'])
+        else:
+            return -1
+    except:
+        write_log(3, traceback.format_exc())
+        return -1
+
+# 部分人无法访问，修改为自己搭建的短网址接口
 def short_souurl(urls):
     url = "http://suo.im/api.htm?url={}&key=5d68979fb1a9c70269346191@8b1adc61fdc362158a352a191513e054&expireType=6".format(urls)
     try:
