@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="/static/key/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/key/fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/key/css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/key/css/component.css"/>
+    <script src="/static/key/js/classie.js"></script>
+    <!--[if IE]>
+  		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+<div class="container">
+    <section class="content">
+
+			<span class="input input--minoru">
+				<b>--请输入访问密码--</b>
+			</span>
+
+        <form name="form" id="form-login"/>
+        <span class="input input--minoru">
+					<input class="input__field input__field--minoru" type="password" id="input-daka-state" name="pwd"/>
+					<label class="input__label input__label--minoru" for="input-13">
+						<span class="input__label-content input__label-content--minoru">密码</span>
+					</label>
+				</span>
+        <br>
+        <span class="input input--minoru">
+				<input value="提交" type="button" onclick="return login()" class="but"/>
+            <!-- <input value="提交" type="submit" class="but" > -->
+				</span>
+        </form>
+
+
+    </section>
+</div><!-- /container -->
+<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+<script>
+
+    window.alert = function (name) {
+        var iframe = document.createElement("IFRAME");
+        iframe.style.display = "none";
+        iframe.setAttribute("src", 'data:text/plain,');
+        document.documentElement.appendChild(iframe);
+        window.frames[0].window.alert(name);
+        iframe.parentNode.removeChild(iframe);
+    };
+    window.confirm = function (message) {
+        var iframe = document.createElement("IFRAME");
+        iframe.style.display = "none";
+        iframe.setAttribute("src", 'data:text/plain,');
+        document.documentElement.appendChild(iframe);
+        var alertFrame = window.frames[0];
+        var result = alertFrame.window.confirm(message);
+        iframe.parentNode.removeChild(iframe);
+        return result;
+    };
+    (function () {
+        // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+        if (!String.prototype.trim) {
+            (function () {
+                // Make sure we trim BOM and NBSP
+                var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+                String.prototype.trim = function () {
+                    return this.replace(rtrim, '');
+                };
+            })();
+        }
+
+        [].slice.call(document.querySelectorAll('input.input__field')).forEach(function (inputEl) {
+            // in case the input is already filled..
+            if (inputEl.value.trim() !== '') {
+                classie.add(inputEl.parentNode, 'input--filled');
+            }
+
+            // events:
+            inputEl.addEventListener('focus', onInputFocus);
+            inputEl.addEventListener('blur', onInputBlur);
+        });
+
+        function onInputFocus(ev) {
+            classie.add(ev.target.parentNode, 'input--filled');
+        }
+
+        function onInputBlur(ev) {
+            if (ev.target.value.trim() === '') {
+                classie.remove(ev.target.parentNode, 'input--filled');
+            }
+        }
+    })();
+
+
+    function login() {
+        $.ajax({
+            type: "POST",   //提交的方法
+            url: "/key/login/", //提交的地址
+            data: $('#form-login').serialize(),// 序列化表单值
+            async: false,
+            error: function (request) {  //失败的话
+                alert("系统错误");
+            },
+            success: function (res) {  //成功
+                //var result = JSON.parse(res)
+                if (res == 0) {
+                    alert("登录成功，点击确定自动跳转..");
+                    window.location.href = "/key/"
+                } else {
+                    alert("密码错误");  //就将返回的数据显示出来
+                }
+            }
+        });
+    }
+
+</script>
+</body>
+</html>

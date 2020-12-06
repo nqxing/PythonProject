@@ -1,10 +1,8 @@
 from django.http import HttpResponse
-from auto_reply.package.ele_sign_base import *
-from auto_reply.package.ident_photo import remove_bg_index
-from auto_reply.package.ident_photo_load import copy_imgFile
-from auto_reply.vd_comm import vd_comm
-from auto_reply.reply_con_xml import reply_con_xml, del_action_dict
-
+from pub_zqwz.config import *
+from app_auto_reply.plugins.auto_reply import reply
+from app_auto_reply.models import pubVarList
+from app_auto_reply.api.public import fangtang
 
 def auto_reply(request):
     try:
@@ -37,22 +35,19 @@ def auto_reply(request):
             msgType = xml.find("MsgType").text
             if msgType == 'text':
                 content = xml.find('Content').text.strip()
-                rep_state = vd_comm(action_dict, eleme_sign_dict, url_sc_dict, fromUser, content, True)
-                if rep_state['code'] == 0:
-                    rep_content = rep_state['msg']
-                    del_action_dict(action_dict, eleme_sign_dict, eleme_sign_cap_dict, url_sc_dict, fromUser)
-                elif rep_state['code'] == 2:
-                    news_str = KEY_NEWS_BOT.format(fromUser, toUser, int(time.time()))
-                    r = HttpResponse(news_str)
-                    return r
-                elif rep_state['code'] == 3:
-                    media_id = rep_state['msg']
-                    news_str = XML_IMGAGE.format(fromUser, toUser, int(time.time()), media_id)
-                    r = HttpResponse(news_str)
-                    return r
+                res = reply(content)
+                if res['code'] == 1:
+                    rep_content = res['msg'].replace('|', '\n').strip()
+                    r = HttpResponse(XML_TEXT.format(fromUser, toUser, int(time.time()), rep_content))
+                elif res['code'] == 2:
+                    rep_content = res['msg'].format(fromUser, toUser, int(time.time()))
+                    r = HttpResponse(rep_content)
+                elif res['code'] == 3:
+                    media_id = res['msg']
+                    rep_content = XML_IMGAGE.format(fromUser, toUser, int(time.time()), media_id)
+                    r = HttpResponse(rep_content)
                 else:
-                    rep_content = rep_state['msg']
-                r = HttpResponse(XML_TEXT.format(fromUser, toUser, int(time.time()), rep_content))
+                    r = HttpResponse('')
                 return r
             elif msgType == 'image':
                     return HttpResponse('')
@@ -70,7 +65,7 @@ def auto_reply(request):
         else:
             return HttpResponse('')
     except:
-        write_log(3, format(traceback.format_exc()))
+        log(3, format(traceback.format_exc()))
         # send_fqq('微信公众号后台出错了，快去看看吧')
         fangtang('微信公众号后台出错了，快去看看吧', '微信公众号后台出错了，快去看看吧')
         return HttpResponse('系统异常，请稍后再来看看吧')

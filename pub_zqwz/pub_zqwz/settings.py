@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'pub_zqwz.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'public',
+        'NAME': 'pub_zqwz',
         'USER': 'root',
         'PASSWORD': 'mm123456',
         'HOST': '127.0.0.1',

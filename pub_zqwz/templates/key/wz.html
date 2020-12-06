@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>王者菜单</title>
+    <link rel="stylesheet" type="text/css" href="/static/key/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/key/fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/key/css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/key/css/component.css"/>
+    <script src="/static/key/js/classie.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+    <!--[if IE]>
+  		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+<div class="container">
+    <section class="content">
+			
+				<span class="input input--minoru">
+                    <a href="{{ root_url }}/key/exitLogin/" class="but">退出登录</a>
+				</span><br>
+        <span class="input input--minoru">
+                    <a href="#" class="but" id="run_news" onclick="return runServer(this.id)">开启新闻监控</a>
+				</span><br>
+        <span class="input input--minoru">
+                    <a href="#" class="but" id="stop_news" onclick="return runServer(this.id)">关闭新闻监控</a>
+				</span>
+        <br>
+        <span class="input input--minoru">
+                    <a href="#" class="but" id="up_wz" onclick="return runServer(this.id)">更新王者壁纸</a>
+				</span><br>
+                <span class="input input--minoru">
+                    <a href="#" class="but" id="up_wz_info" onclick="return runServer(this.id)">更新王者信息</a>
+				</span>
+        <br>
+        <span class="input input--minoru">
+                    手动新增壁纸
+				</span><br>
+
+        <form name="form" id="form-addwall"/>
+        <span class="input input--minoru">
+                <input class="input__field input__field--minoru" type="text" value=""
+                       id="" name="hero_id"/></input>
+            <label class="input__label input__label--minoru" for="input-13"><span
+                    class="input__label-content input__label-content--minoru">英雄ID</span></label></span><br>
+
+        <span class="input input--minoru">
+                    <input class="input__field input__field--minoru" type="text" value="" name="hero_name"/>
+                    <label class="input__label input__label--minoru" for="input-13">
+                        <span class="input__label-content input__label-content--minoru">英雄名字</span>
+                    </label>
+                </span>
+        <br/>
+        <span class="input input--minoru">
+                <input class="input__field input__field--minoru" type="text" value=""
+                       id="" name="skin_url"/></input>
+            <label class="input__label input__label--minoru" for="input-13"><span
+                    class="input__label-content input__label-content--minoru">皮肤链接</span></label></span><br>
+
+        <span class="input input--minoru">
+                    <input class="input__field input__field--minoru" type="text" value="" name="skin_name"/>
+                    <label class="input__label input__label--minoru" for="input-13">
+                        <span class="input__label-content input__label-content--minoru">皮肤名字</span>
+                    </label>
+                </span>
+        <br/>
+                <span class="input input--minoru">
+                    <input class="input__field input__field--minoru" type="text" value="False" name="is_mob"/>
+                    <label class="input__label input__label--minoru" for="input-13">
+                        <span class="input__label-content input__label-content--minoru">是否生成手机壁纸，只适用于王者</span>
+                    </label>
+                </span>
+        <br/>
+
+        <span class="input input--minoru">
+                <input value="提交" type="button" id="" onclick="return addWall()"
+                       class="but">
+                </span>
+        </form>
+        <script>
+
+            window.alert = function (name) {
+                var iframe = document.createElement("IFRAME");
+                iframe.style.display = "none";
+                iframe.setAttribute("src", 'data:text/plain,');
+                document.documentElement.appendChild(iframe);
+                window.frames[0].window.alert(name);
+                iframe.parentNode.removeChild(iframe);
+            };
+            window.confirm = function (message) {
+                var iframe = document.createElement("IFRAME");
+                iframe.style.display = "none";
+                iframe.setAttribute("src", 'data:text/plain,');
+                document.documentElement.appendChild(iframe);
+                var alertFrame = window.frames[0];
+                var result = alertFrame.window.confirm(message);
+                iframe.parentNode.removeChild(iframe);
+                return result;
+            };
+
+            function addWall() {
+                $.ajax({
+                    type: "POST",   //提交的方法
+                    url: "/key/addwall/", //提交的地址
+                    data: $('#form-addwall').serialize(),// 序列化表单值
+                    async: false,
+                    error: function (request) {  //失败的话
+                        alert("系统错误");
+                    },
+                    success: function (res) {  //成功
+                        //var result = JSON.parse(res)
+                        alert(res);
+                    }
+                });
+            }
+
+             function runServer(kid) {
+                 if (kid == 'run_news') {
+                   var url = '/key/MonNews/?type=run'
+                } if(kid == 'stop_news'){
+                     var url = '/key/MonNews/?type=stop'
+                 }if(kid == 'up_wz'){
+                     var url = '/key/UPwz/'
+                 }if(kid == 'up_wz_info'){
+                     var url = '/key/UPwzInfo/'
+                 }
+                $.ajax({
+                    type: "GET",   //提交的方法
+                    url: url, //提交的地址
+                    async: false,
+                    error: function (request) {  //失败的话
+                        alert("系统错误");
+                    },
+                    success: function (res) {  //成功
+                        //var result = JSON.parse(res)
+                        alert(res);
+                    }
+                });
+            }
+
+        </script>
+
+    </section>
+</div><!-- /container -->
+</body>
+</html>

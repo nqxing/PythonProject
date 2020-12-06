@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>关键字列表</title>
+    <link rel="stylesheet" type="text/css" href="/static/key/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/key/fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/key/css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/key/css/component.css"/>
+    <script src="/static/key/js/classie.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+    <!--[if IE]>
+  		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+<div class="container">
+    <section class="content">
+			
+				<span class="input input--minoru">
+                    <a href="exitLogin/" class="but">退出登录</a>
+				</span><br>
+                <span class="input input--minoru">
+                    <a href="wz/" class="but">王者菜单</a>
+				</span><br>
+        <span class="input input--minoru">
+				<b id="result">--关键字添加--</b>
+			</span>
+        <form name="form" id="form-key"/>
+        <span class="input input--minoru">
+					<input class="input__field input__field--minoru" type="text" name="key_text"/>
+					<label class="input__label input__label--minoru" for="input-13">
+						<span class="input__label-content input__label-content--minoru">关键字</span>
+					</label>
+				</span>
+        <br/>
+        <span class="input input--minoru">
+                <textarea class="input__field input__field--minoru" type="text" rows="3" value=""
+                          name="key_info"/></textarea >
+            <label class="input__label input__label--minoru" for="input-13">
+                    <span class="input__label-content input__label-content--minoru">关键字信息</span>
+                </label></span><br>
+        <span class="input input--minoru">
+				<input value="提交" type="button" onclick="return addKeyword()" class="but"/>
+				</span>
+        </form>
+
+
+            {% if  var_values %}
+            <span class="input input--minoru">
+				<b>--内置变量列表--</b>
+			</span>
+            {% for v in var_values %}
+                <form name="form" id="form-{{ v.var_name }}"/>
+                <span class="input input--minoru">
+                    <input class="input__field input__field--minoru" type="text" value="{{ v.var_info }}" name="var_info"/>
+                    <label class="input__label input__label--minoru" for="input-13">
+                        <span class="input__label-content input__label-content--minoru">{{ v.note }}</span>
+                    </label>
+                </span>
+                <br/>
+                <span class="input input--minoru">
+                <input value="提交" type="button" id="{{ v.var_name }}" onclick="return upVar(this.id)"
+                       class="but">
+                </span>
+                </form>
+            {% endfor %}
+        {% endif %}
+
+
+        {% if  key_values %}
+            <span class="input input--minoru">
+				<b>--关键字列表--</b>
+			</span>
+            {% for v in key_values %}
+                <form name="form" id="form-list{{ v.id }}"/>
+                <span class="input input--minoru">
+                    <input class="input__field input__field--minoru" type="text" value="{{ v.key }}" name="key_text"/>
+                    <label class="input__label input__label--minoru" for="input-13">
+                        <span class="input__label-content input__label-content--minoru">关键字</span>
+                    </label>
+                </span>
+                <br/>
+                <span class="input input--minoru">
+                <input class="input__field input__field--minoru" type="text" rows="2" value="{{ v.key_info }}"
+                       id="keys_info{{ v.id }}" name="key_info"/></input>
+                    <label class="input__label input__label--minoru" for="input-13"><span
+                            class="input__label-content input__label-content--minoru">关键字信息</span></label></span><br>
+                <span class="input input--minoru">
+                <input value="提交" type="button" id="{{ v.id }}" onclick="return upKeyword(this.id)"
+                       class="but">
+                </span>
+                </form>
+            {% endfor %}
+        {% endif %}
+
+        <script>
+
+            window.alert = function (name) {
+                var iframe = document.createElement("IFRAME");
+                iframe.style.display = "none";
+                iframe.setAttribute("src", 'data:text/plain,');
+                document.documentElement.appendChild(iframe);
+                window.frames[0].window.alert(name);
+                iframe.parentNode.removeChild(iframe);
+            };
+            window.confirm = function (message) {
+                var iframe = document.createElement("IFRAME");
+                iframe.style.display = "none";
+                iframe.setAttribute("src", 'data:text/plain,');
+                document.documentElement.appendChild(iframe);
+                var alertFrame = window.frames[0];
+                var result = alertFrame.window.confirm(message);
+                iframe.parentNode.removeChild(iframe);
+                return result;
+            };
+
+             function upVar(kid) {
+                $.ajax({
+                    type: "POST",   //提交的方法
+                    url: "/key/var/" + kid + "/", //提交的地址
+                    data: $('#form-' + kid).serialize(),// 序列化表单值
+                    async: false,
+                    error: function (request) {  //失败的话
+                        alert("系统错误");
+                    },
+                    success: function (res) {  //成功
+                        //var result = JSON.parse(res)
+                        alert(res);
+                    }
+                });
+            }
+
+            function upKeyword(kid) {
+                $.ajax({
+                    type: "POST",   //提交的方法
+                    url: "/key/" + kid + "/", //提交的地址
+                    data: $('#form-list' + kid).serialize(),// 序列化表单值
+                    async: false,
+                    error: function (request) {  //失败的话
+                        alert("系统错误");
+                    },
+                    success: function (res) {  //成功
+                        //var result = JSON.parse(res)
+                        alert(res);
+                    }
+                });
+            }
+
+            function addKeyword() {
+                $.ajax({
+                    type: "POST",   //提交的方法
+                    url: "/key/", //提交的地址
+                    data: $('#form-key').serialize(),// 序列化表单值
+                    async: false,
+                    error: function (request) {  //失败的话
+                        alert("系统错误");
+                    },
+                    success: function (res) {  //成功
+                        //var result = JSON.parse(res)
+                        alert(res);
+                    }
+                });
+            }
+
+        </script>
+
+    </section>
+</div><!-- /container -->
+</body>
+</html>

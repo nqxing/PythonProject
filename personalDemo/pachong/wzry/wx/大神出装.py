@@ -11,8 +11,14 @@ HOST = '116.62.126.139'
 USER = 'root'
 # PWD = 'MUGVHmugvtwja116ye38b1jhb'
 PWD = 'mm123456'
-mysql_conn = pymysql.connect(host=HOST, user=USER, password=PWD, port=3306, db='public')
+mysql_conn = pymysql.connect(host=HOST, user=USER, password=PWD, port=3306, db='pub_zqwz')
 mysql_cursor = mysql_conn.cursor()  # 获取游标
+
+
+cookie = """
+pgv_pvid=1364724232; pgv_pvi=458578944; RK=9DRo5K2gNs; ptcz=604e3a089b8f6a2ccace670331f07a16bbca31a3407fbc64731d4384bf5933a4; tvfe_boss_uuid=b37637d68b9600b0; LW_uid=j1E5J7R7t8v8J7m1W8d3u7j0g8; eas_sid=p1H5x7z7u83867D1w8m3D793R0; LW_sid=S1V5C7r7v8q837L2X0Z7y3O329; ptui_loginuin=781583148; cookie_passkey=1; uin=Nzc0MjkzNTIy; key=bc1dc83c74ff7841038b82153c35c4fad936e9f67b26994be698fdfd772a5938bc2deba25ac24330d10d57970af2eb76d38a8db649437c2851654fbfba09dccc0915d1232c9f8ab67460756b9634f0337493b95bec40180635abd567cb3deea91a3191dd20f1f97e79c58d3a8f1413611a500331300d14f11900648ad3f51d8e; pass_ticket=4rlKZPiBaF6AOE3vQ9jat%2FO04DAR6HTXX3En8HWzVgobLEaUuydiHXZSEl1XTTvB; __guid=56367293.1877497896910427000.1607165866046.7485; monitor_count=2
+"""
+
 headers = {
 	"Host": "game.weixin.qq.com",
 	"Connection": "keep-alive",
@@ -28,7 +34,7 @@ headers = {
 	"Referer": "https://game.weixin.qq.com/cgi-bin/h5/static/zone/hero.html?keyword=%E4%B8%8A%E5%AE%98%E5%A9%89%E5%84%BF&ssid=2103&appid=wx95a3a4d7c627e07d&game_hero_id=513&hero_id=153",
 	"Accept-Encoding": "gzip, deflate, br",
 	"Accept-Language": "zh-CN,zh;q=0.9",
-	"Cookie": "RK=gB6x/YRCYi; ptcz=af4f2846d273f3f25641cbc5a5901068a616cf960e8eaca02522f8bbd8874547; pgv_pvi=5937380352; pt_sms_phone=180******08; iip=0; pgv_pvid=4375062316; o_cookie=513662932; pac_uid=1_513662932; tvfe_boss_uuid=14ec4cb3fba9d7cd; cookie_passkey=1; uin=Nzc0MjkzNTIy; pass_ticket=GnpmXbDQPY7SIVs8uXhw3Ij%2BWAsdAo5ZTuZTnvwkt9Nd218iECT55q4WrqbeaS33; key=94af0d4a7c8348d533767c7bdc487aefe29019287a090e0d6afd859ef4390111ef7558c7068fdde62ff60d4d9e4ac9052cc444572bb44b6a0b86057f98a1c64321726e56af777c8816911ffe64c57d3431e12882097ca2515439086fed2b842a9c17335c8ca436a35b9dd67d6f87cbe4bbc45d119e10f8335d46c7365d3a05b2"
+	"Cookie": "pgv_pvid=1364724232; pgv_pvi=458578944; RK=9DRo5K2gNs; ptcz=604e3a089b8f6a2ccace670331f07a16bbca31a3407fbc64731d4384bf5933a4; tvfe_boss_uuid=b37637d68b9600b0; LW_uid=j1E5J7R7t8v8J7m1W8d3u7j0g8; eas_sid=p1H5x7z7u83867D1w8m3D793R0; LW_sid=S1V5C7r7v8q837L2X0Z7y3O329; ptui_loginuin=781583148; cookie_passkey=1; uin=Nzc0MjkzNTIy; key=bc1dc83c74ff7841038b82153c35c4fad936e9f67b26994be698fdfd772a5938bc2deba25ac24330d10d57970af2eb76d38a8db649437c2851654fbfba09dccc0915d1232c9f8ab67460756b9634f0337493b95bec40180635abd567cb3deea91a3191dd20f1f97e79c58d3a8f1413611a500331300d14f11900648ad3f51d8e; pass_ticket=4rlKZPiBaF6AOE3vQ9jat%2FO04DAR6HTXX3En8HWzVgobLEaUuydiHXZSEl1XTTvB; __guid=56367293.1877497896910427000.1607165866046.7485; monitor_count=2"
 }
 
 
@@ -59,7 +65,7 @@ for v in values:
 	if herotpl['errmsg'] == 'ok':
 		html_tpl = herotpl['hero_tpl']['html_tpl']
 		texts = re.findall('<div class="hero__info-content">(.*?)</div>', html_tpl, re.S)
-		titles = ['技能升级技巧', '铭文搭配技巧', '使用技巧', '团战技巧']
+		titles = ['技能升级', '铭文搭配', '打法攻略', '团战攻略']
 		if len(texts) == len(titles):
 			mysql_cursor.execute('select cx_value from pub_wz_win_rate where hero_id = {}'.format(game_hero_id))
 			value = mysql_cursor.fetchall()[0]
@@ -101,7 +107,7 @@ for v in values:
 			sql = '''UPDATE pub_wz_equip SET cx_value1 = "{}" WHERE cx_name = "{}" '''.format(god_equips, hs1)
 			mysql_cursor.execute(sql)
 			mysql_conn.commit()
-		hs2 = '{}技巧'.format(h)
+		hs2 = '{}攻略'.format(h)
 		mysql_cursor.execute('''select * from pub_wz_skills where cx_name = "{}"'''.format(hs2))
 		values = mysql_cursor.fetchall()
 		if values:

@@ -1,12 +1,24 @@
+import traceback
+import requests
+import time
+import re
+import json
+import hashlib
+import xml.etree.ElementTree as et
+from random import randint  # 随机函数
+from pyquery import PyQuery as pq
+import threading
+from threading import Thread
+import datetime
+from selenium import webdriver
+import ctypes
+import inspect
+from apscheduler.schedulers.blocking import BlockingScheduler
+from pub_zqwz.logger import *
+
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; PRO 6 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043221 Safari/537.36 V1_AND_SQ_7.0.0_676_YYB_D QQ/7.0.0.3135 NetType/WIFI WebP/0.3.0 Pixel/1080'
 }
-
-
-WX_WZ_GROUPS = "王者荣耀壁纸群"
-WX_LOL_GROUPS = "英雄联盟壁纸群"
-QQ_WZ_GROUPS = 161758669
-ERROR_QQ = 541116212
 
 XML_TEXT = '<xml>' \
            '<ToUserName><![CDATA[{}]]></ToUserName>' \
@@ -41,9 +53,6 @@ XML_NEWS = '''
           </Articles>
         </xml>
         '''
-
-
-KEY_NEWS_BOT = XML_NEWS.format("{}", "{}", "{}", "点击添加机器人微信", "查看详情", "https://mmbiz.qpic.cn/mmbiz_png/CFpeqnV0qt7Q5D7j9yibV3JseYyUXJtZ9icpaaTcEhF8Kj4LcUtv5IkKVw0PuKzP81Roic8icWffufGEynDbdYPLgQ/0?wx_fmt=png", "https://mp.weixin.qq.com/s/LuKaolxaNBZ9SLxcK18mTQ")
 
 HERO_BM_DICT = {
     "154": "木兰",
@@ -80,14 +89,14 @@ HERO_BM_DICT = {
 }
 
 TIP_DICT = {
-    'bz': 'tips：发送“{}壁纸”可获取{}全皮肤壁纸哦，发送“王者菜单”可查看完整关键字列表',
-    'jn': 'tips：发送“{}技能”可快速了解{}技能介绍哦，发送“王者菜单”可查看完整关键字列表',
-    'sl': 'tips：发送“{}胜率”可查看{}最新胜率榜哦，发送“王者菜单”可查看完整关键字列表',
-    'cz': 'tips：发送“{}出装”可查看{}出装推荐哦，发送“王者菜单”可查看完整关键字列表',
-    'mw': 'tips：发送“{}铭文”可查看{}最新铭文搭配哦，发送“王者菜单”可查看完整关键字列表',
-    'kz': 'tips：发送“{}克制”可查看{}英雄克制关系哦，发送“王者菜单”可查看完整关键字列表',
-    'js': 'tips：发送“{}介绍”可查看{}的故事介绍哦，发送“王者菜单”可查看完整关键字列表',
-    'zh': 'tips：发送“{}组合”可查看{}双/三排组合推荐哦，发送“王者菜单”可查看完整关键字列表',
-    'jq': 'tips：发送“{}技巧”可查看{}使用技巧哦，发送“王者菜单”可查看完整关键字列表',
-    'yy': 'tips：发送“{}语音”可获取{}皮肤语音包哦，发送“王者菜单”可查看完整关键字列表',
+    'bz': '*小提示：发送“{}壁纸”可获取{}全皮肤壁纸，更多数据请直接发送英雄名查看哦',
+    'jn': '*小提示：发送“{}技能”可快速了解{}技能介绍，更多数据请直接发送英雄名查看哦',
+    'sl': '*小提示：发送“{}胜率”可查看{}最新胜率榜，更多数据请直接发送英雄名查看哦',
+    'cz': '*小提示：发送“{}出装”可查看{}出装推荐，更多数据请直接发送英雄名查看哦',
+    'mw': '*小提示：发送“{}铭文”可查看{}最新铭文搭配，更多数据请直接发送英雄名查看哦',
+    'kz': '*小提示：发送“{}克制”可查看{}英雄克制关系，更多数据请直接发送英雄名查看哦',
+    'js': '*小提示：发送“{}介绍”可查看{}的故事介绍，更多数据请直接发送英雄名查看哦',
+    'zh': '*小提示：发送“{}组合”可查看{}双/三排组合推荐，更多数据请直接发送英雄名查看哦',
+    'jq': '*小提示：发送“{}攻略”可查看{}打法攻略，更多数据请直接发送英雄名查看哦',
+    'yy': '*小提示：发送“{}语音”可获取{}皮肤语音包，更多数据请直接发送英雄名查看哦',
 }

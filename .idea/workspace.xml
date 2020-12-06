@@ -21,14 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="36cfdba2-3ed9-4d4e-9354-1963df50c0eb" name="Default Changelist" comment="2019-04-14 18:29">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kuq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kuq/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personalDemo/数据迁移/url_to_tinyurl.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalDemo/数据迁移/url_to_tinyurl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/auto_reply/config/fun_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/auto_reply/config/fun_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/public/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/public/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxBot/plugins/clock_in/run_clock.py" beforeDir="false" afterPath="$PROJECT_DIR$/wxBot/plugins/clock_in/run_clock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxBot/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/wxBot/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirai/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mirai/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub_zqwz/.idea/pub_zqwz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pub_zqwz/.idea/pub_zqwz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub_zqwz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pub_zqwz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub_zqwz/app_auto_reply/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pub_zqwz/app_auto_reply/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub_zqwz/app_auto_reply/plugins/auto_reply.py" beforeDir="false" afterPath="$PROJECT_DIR$/pub_zqwz/app_auto_reply/plugins/auto_reply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub_zqwz/app_auto_reply/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pub_zqwz/app_auto_reply/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub_zqwz/config/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub_zqwz/pub_zqwz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pub_zqwz/pub_zqwz/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub_zqwz/pub_zqwz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pub_zqwz/pub_zqwz/urls.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +52,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1557641717536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/PythonProject$config.coverage" NAME="config Coverage Results" MODIFIED="1584249086458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/wxPublic/config" />
     <SUITE FILE_PATH="coverage/PythonProject$setWallPaper_bing.coverage" NAME="setWallPaper_bing Coverage Results" MODIFIED="1603528226590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personalDemo/set_bihzi" />
+    <SUITE FILE_PATH="coverage/PythonProject$.coverage" NAME="大神出装 Coverage Results" MODIFIED="1607166093974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personalDemo/pachong/wzry/wx" />
     <SUITE FILE_PATH="coverage/PythonProject$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1557539481440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/ttt" />
     <SUITE FILE_PATH="coverage/PythonProject$eleme_excel_cap.coverage" NAME="eleme_excel_cap Coverage Results" MODIFIED="1556335458319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/pachong/eleme" />
     <SUITE FILE_PATH="coverage/PythonProject$Renames.coverage" NAME="Renames Coverage Results" MODIFIED="1555849659184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo" />
@@ -63,6 +68,54 @@
     <SUITE FILE_PATH="coverage/PythonProject$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1557539118043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/PythonProject$wangpan.coverage" NAME="wangpan Coverage Results" MODIFIED="1584242202180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonalDemo/baid_wangp" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1190803134">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="40" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1459">
+              <caret line="36" column="754" selection-start-line="36" selection-start-column="754" selection-end-line="36" selection-end-column="754" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -73,13 +126,71 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-15" />
+    <option name="y" value="5" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
+  </component>
   <component name="ProjectId" id="1jOduSsaVqbXbdFWSni2x07k23v" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="personalDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="personalDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="personalDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="wzry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="personalDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="wzry" type="462c0819:PsiDirectoryNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aweme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -98,8 +209,20 @@
       <recent name="D:\PythonProject\test\ttt" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.url_to_tinyurl">
-    <configuration name="down_wz_wall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.大神出装">
+    <configuration name="大神出装" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +230,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personalDemo/pachong" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personalDemo/pachong/wzry/wx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/pachong/down_wz_wall.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,6 +256,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/douyin/find_mongo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -153,6 +278,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/douyin/get_aweme.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -174,6 +300,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/数据迁移/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -195,6 +322,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalDemo/数据迁移/url_to_tinyurl.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -205,23 +333,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.down_wz_wall" />
       <item itemvalue="Python.find_mongo" />
       <item itemvalue="Python.get_aweme" />
       <item itemvalue="Python.tests" />
       <item itemvalue="Python.url_to_tinyurl" />
+      <item itemvalue="Python.大神出装" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.大神出装" />
         <item itemvalue="Python.url_to_tinyurl" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.find_mongo" />
         <item itemvalue="Python.get_aweme" />
-        <item itemvalue="Python.down_wz_wall" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -250,6 +378,33 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-12" y="4" width="1552" height="848" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966533" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -258,12 +413,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019-04-14 17:11" />
@@ -311,5 +475,24 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Python36/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalDemo/pachong/wzry/wx/大神出装.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1459">
+          <caret line="36" column="754" selection-start-line="36" selection-start-column="754" selection-end-line="36" selection-end-column="754" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -14,8 +14,20 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from app_auto_reply.views import auto_reply
+
+#以下3个包生产环境开启
+from django.conf.urls import url
+# 导入server服务
+from django.views.static import serve
+from pub_zqwz.settings import STATIC_ROOT
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('autoReply/', auto_reply),
+    path('key/', include('app_auto_reply.urls')),
+    path('s/', include('app_short_url.urls')),
+    # 以下生产环境开启
+    url(r'^static/(?P<path>.*)$', serve, {'document_root': STATIC_ROOT})
 ]
