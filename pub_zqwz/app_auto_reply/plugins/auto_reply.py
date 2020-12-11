@@ -98,6 +98,15 @@ def reply(text):
         rep_str = XML_NEWS.format("{}", "{}", "{}", article_title, article_desc, article_img, article_url)
         res['code'] = 2
         res['msg'] = rep_str
+    elif text == 'nie':
+        # rep_str = '<a href="https://mp.weixin.qq.com/s/drufLcC-t9sGl7WNA_-0LA">我的微信</a>'
+        article_title = "点击添加小编微信"
+        article_desc = "查看详情查看详情查看详情查看详情查看详情查看详情"
+        article_img = "https://mmbiz.qpic.cn/mmbiz_png/CFpeqnV0qt7Q5D7j9yibV3JseYyUXJtZ9icpaaTcEhF8Kj4LcUtv5IkKVw0PuKzP81Roic8icWffufGEynDbdYPLgQ/0?wx_fmt=png"
+        article_url = "http://zuiqu.net/test.html"
+        rep_str = XML_NEWS.format("{}", "{}", "{}", article_title, article_desc, article_img, article_url)
+        res['code'] = 2
+        res['msg'] = rep_str
     elif text == '机器人':
         # code = 1  为回复文本
         # code = 2 为回复图文信息

@@ -15,6 +15,8 @@ import ctypes
 import inspect
 from apscheduler.schedulers.blocking import BlockingScheduler
 from pub_zqwz.logger import *
+from retry import retry
+import os
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; PRO 6 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043221 Safari/537.36 V1_AND_SQ_7.0.0_676_YYB_D QQ/7.0.0.3135 NetType/WIFI WebP/0.3.0 Pixel/1080'
