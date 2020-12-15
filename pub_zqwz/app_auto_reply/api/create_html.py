@@ -8,12 +8,15 @@ from pub_zqwz.config import *
 # RUNE  --  铭文图片显示list
 # EQUIP --  出装图片显示list
 
-MTEXT = '''<p style="white-space: normal;"><span style="font-size: 14px;">{}</span></p>'''
-HTEXT = '''<p style="white-space: normal;"><span style="font-size: 14px;color: rgb(136, 136, 136);">{}</span></p>'''
-PIC = '''<p style="white-space: normal;"><img data-ratio="0.47368421052631576"  data-w="2280" style="margin-bottom: 12px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-width: 0px; border-style: initial; border-color: initial; user-select: none; border-radius: 0.13333rem; display: block; width: 591.031px !important; height: auto !important; visibility: visible !important;" _width="591.031px" class="" src="{}" crossorigin="anonymous" alt="图片" data-fail="0"></p>'''
-MARK = '''<br><p style="white-space: normal;"><span style="font-size: 14px;"><strong style="font-size: 20px;max-width: 100%;color: rgb(217, 33, 66);letter-spacing: 0.544px;background-color: rgb(255, 255, 255);box-sizing: border-box !important;overflow-wrap: break-word !important;">{}</strong></span></p>'''
+MTEXT = '''<p style="white-space: normal;"><span style="font-size: 15px;">{}</span></p>'''
+HTEXT = '''<p style="white-space: normal;"><span style="font-size: 15px;color: rgb(136, 136, 136);">{}</span></p>'''
+PIC = '''<p style="white-space: normal;"><img data-ratio="0.47368421052631576"  data-w="2280" style="margin-bottom: 12px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-width: 0px; border-style: initial; border-color: initial; user-select: none; border-radius: 0.13333rem; display: block; !important; height: auto !important; visibility: visible !important;" _width="591.031px" class="" src="{}" crossorigin="anonymous" alt="图片" data-fail="0"></p>'''
+MARK = '''<br><p style="white-space: normal;"><span style="font-size: 15px;"><strong style="font-size: 20px;max-width: 100%;color: rgb(217, 33, 66);letter-spacing: 0.544px;background-color: rgb(255, 255, 255);box-sizing: border-box !important;overflow-wrap: break-word !important;">{}</strong></span></p>'''
 EPIC = '''<img data-ratio="0.47368421052631576"  data-w="2280" style="margin-top: 12px; margin-left: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-width: 0px; border-style: initial; border-color: initial; user-select: none; border-radius: 6rem;  width: 40px !important; height: 40px !important; visibility: visible !important;" _width="591.031px" class="" src="{}" crossorigin="anonymous" alt="图片" data-fail="0">'''
-RPIC = '''<img data-ratio="0.47368421052631576"  data-w="2280" style="margin-top: 12px; margin-left: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-width: 0px; border-style: initial; border-color: initial; user-select: none; width: 43px !important; height: 51px !important; visibility: visible !important;" _width="591.031px" class="" src="{}" crossorigin="anonymous" alt="图片" data-fail="0">'''
+RPIC = '''<img data-ratio="0.47368421052631576"  data-w="2280" style="margin-top: 12px; margin-left: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-width: 0px; border-style: initial; border-color: initial; user-select: none; width: 44px !important; height: 51px !important; visibility: visible !important;" _width="591.031px" class="" src="{}" crossorigin="anonymous" alt="图片" data-fail="0">'''
+GSTEXT = '''<div style="white-space: normal; font-size: 15px; line-height: 1.8em;">{}</div>'''
+
+
 def sc_content(html_dict):
     content = ''
     htmls = list(html_dict.keys())
@@ -26,6 +29,8 @@ def sc_content(html_dict):
             content += PIC.format(html_dict[h])
         if 'MARK' in h:
             content += MARK.format(html_dict[h])
+        if 'GSTEXT' in h:
+            content += GSTEXT.format(html_dict[h])
         if 'EQUIP' in h:
             for i,k in enumerate(html_dict[h]):
                 values = pubWZItem.objects.filter(cx_name=k)

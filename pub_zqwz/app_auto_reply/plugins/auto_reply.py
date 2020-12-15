@@ -118,8 +118,13 @@ def reply(text):
         res['msg'] = rep_str
     else:
         key_state = key_info(text)
-        if key_state != -1:
-            res['msg'] = key_state
+        if key_state['code'] == -1:
+            res['msg'] = key_state['msg']
+        elif key_state['code'] == 1:
+            res['code'] = 2
+            res['msg'] = key_state['msg']
+        elif key_state['code'] == 2:
+            res['msg'] = key_state['msg']
         else:
             res['msg'] = pubVarList.objects.filter(var_name="NO_STR")[0].var_info
     end_str = pubVarList.objects.filter(var_name='END_STR')[0].var_info

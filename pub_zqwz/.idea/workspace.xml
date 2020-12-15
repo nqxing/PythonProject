@@ -24,18 +24,14 @@
   <component name="ChangeListManager">
     <list default="true" id="06268d83-65f7-4bc8-a41e-2ea29bfe1d71" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aweme/aweme/mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../aweme/aweme/mongo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aweme/aweme/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../aweme/aweme/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../personalDemo/douyin/xiazai.py" beforeDir="false" afterPath="$PROJECT_DIR$/../personalDemo/douyin/xiazai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../personalDemo/pachong/wzry/wx/大神出装.py" beforeDir="false" afterPath="$PROJECT_DIR$/../personalDemo/pachong/wzry/wx/大神出装.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../personalDemo/remove_bg/bg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../personalDemo/remove_bg/bg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../personalDemo/html/hero154.html" beforeDir="false" afterPath="$PROJECT_DIR$/../personalDemo/html/hero154.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_auto_reply/api/create_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/api/create_html.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_auto_reply/api/up_wz_hero_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/api/up_wz_hero_info.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_auto_reply/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_auto_reply/plugins/auto_reply.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/plugins/auto_reply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_auto_reply/plugins/keys_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/plugins/keys_menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_auto_reply/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub_zqwz/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/pub_zqwz/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/key/wz.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/key/wz.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.up_wz_gs">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pub_zqwz" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,8 +111,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="up_wz_gs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pub_zqwz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_auto_reply/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_auto_reply/api/up_wz_gs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.up_wz_gs" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.tr_test" />
       </list>
@@ -152,22 +170,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1607421846572">
+    <state width="1898" height="221" key="GridCell.Tab.0.bottom" timestamp="1608025871878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607421846572" />
-    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1607421846571">
+    <state width="1898" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608025871878" />
+    <state width="1898" height="221" key="GridCell.Tab.0.center" timestamp="1608025871878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607421846571" />
-    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1607421846569">
+    <state width="1898" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608025871878" />
+    <state width="1898" height="221" key="GridCell.Tab.0.left" timestamp="1608025871878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607421846569" />
-    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1607421846571">
+    <state width="1898" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608025871878" />
+    <state width="1898" height="221" key="GridCell.Tab.0.right" timestamp="1608025871878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607421846571" />
+    <state width="1898" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608025871878" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1607390489546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

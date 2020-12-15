@@ -7,6 +7,12 @@ from app_auto_reply.api.create_html import html
 
 num = 0
 
+
+def fnum():
+    global num
+    num = num + 1
+    return num
+
 class UPWZHeroInfo(View):
     def get(self, request):
         # value = request.session.get("msg", None)
@@ -50,8 +56,8 @@ def get_hero_json(hero_id):
     url = 'https://camp.qq.com/h5/statichtml/hero-detail/{}.html'.format(hero_id)
     text = None
     r = requests.get(url, headers=headers, verify=False)
-    # if text == None:
-    #     r = requests.get(url, headers=headers)
+    if hero_id == '142':
+        r = requests.get(url, headers=headers, verify=False)
     r.encoding = 'utf-8'
     values = re.findall('<script>(.*?)</script>', r.text, re.S)
     for v in values:
@@ -116,7 +122,7 @@ def run_main():
         if not folder:
             os.makedirs(save_path)
 
-        hero_dic = {'154': '花木兰', '123': '吕布'}
+        # hero_dic = {'154': '花木兰', '123': '吕布'}
         hero_ids = list(hero_dic.keys())
 
         run_fun(save_path, hero_ids, date)
@@ -182,10 +188,13 @@ def sava_db(text_list, yx_tup, gx_tup):
         html_dict = {}
         yxmc, yxdw, yxzz, yxsg, yxzy, yxsf, yxqy, yxnl, yxgx, yxxj = None, None, None, None, None, None, None, None, None, None
         yxyy = []
-        def fnum():
-            global num
-            num = num + 1
-            return num
+        def wgs(hero_name):
+            values = pubWZGS.objects.filter(cx_name='{}故事'.format(hero_name))
+            if values.exists():
+                estr = values[0].cx_value
+                html_dict['GSTEXT{}'.format(fnum())] = estr
+            else:
+                html_dict['GSTEXT{}'.format(fnum())] = '数据暂未更新'
         def wmtext(text):
             gllist = text.replace('||', '|').split('|')
             gllist.pop(0)
@@ -451,8 +460,11 @@ def sava_db(text_list, yx_tup, gx_tup):
             html_dict['MTEXT{}'.format(fnum())] = '【{}({})】初始{}CD{}秒/消耗{}'.format(s['szTitle'], jn, s['szType'], s['iCoolDown'], s['iLoss'])
             html_dict['MTEXT{}'.format(fnum())] = '{}'.format(szDesc.strip())
 
-        log(1, html_dict)
+        html_dict['MARK{}'.format(fnum())] = '英雄故事：'
+        wgs(heroName)
+        global num
         num = 0
+        # log(1, html_dict)
         html(html_dict, heroName, heroId)
 
         for cxName in hero_cxNames:
@@ -578,6 +590,7 @@ def sava_db(text_list, yx_tup, gx_tup):
                 else:
                     skin.hero_name_bm = hero_name_bms
                     skin.save()
+
 
     #  20201030新增英雄胜率前十排行榜
     headers = {

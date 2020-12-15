@@ -150,3 +150,12 @@ class pubWZItem(models.Model):
     update_time = models.DateTimeField(auto_now=True)
     class Meta:
         db_table = "pub_wz_item"
+
+# 王者荣耀装备、铭文图标
+class pubWZGS(models.Model):
+    cx_name = models.CharField(max_length=20)
+    cx_value = models.CharField(max_length=8000)
+    # 每次修改都会自动更新时间
+    update_time = models.DateTimeField(auto_now=True)
+    class Meta:
+        db_table = "pub_wz_gs"
