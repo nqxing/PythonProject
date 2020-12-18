@@ -325,6 +325,7 @@ def sava_db(text_list, yx_tup, gx_tup):
         html_dict['MTEXT{}'.format(fnum())] = yxgx
         for y in yxyy:
             html_dict['MTEXT{}'.format(fnum())] = y
+        html_dict['HTEXT{}'.format(fnum())] = '*如需更多语音和下载语音包请给公众号发送关键字“{}语音”'.format(heroName)
 
         # 英雄核心装备部分信息
         equipInfo = csHeroInfo
@@ -389,6 +390,14 @@ def sava_db(text_list, yx_tup, gx_tup):
             estr = values[0].cx_value
             wmtext(estr)
 
+        html_dict['MARK{}'.format(fnum())] = '英雄壁纸：'
+        if hpic_values.exists():
+            for h in hpic_values:
+                html_dict['MTEXT{}'.format(fnum())] = h.skin_name
+                html_dict['MTEXT{}'.format(fnum())] = '[电脑] <a href="{}">{}</a>'.format(h.skin_short_url, h.skin_short_url)
+                html_dict['MTEXT{}'.format(fnum())] = '[手机] <a href="{}">{}</a>'.format(h.mob_skin_short_url, h.mob_skin_short_url)
+            html_dict['HTEXT{}'.format(fnum())] = '*如需打包全英雄壁纸，请给公众号发送关键字“全英雄”'
+
         # 英雄克制关系部分信息
         kzInfo = '|'
         html_dict['MARK{}'.format(fnum())] = '克制关系：'
@@ -414,6 +423,7 @@ def sava_db(text_list, yx_tup, gx_tup):
         html_dict['MTEXT{}'.format(fnum())] = skz
         html_dict['MTEXT{}'.format(fnum())] = sbkz
 
+        html_dict['MARK{}'.format(fnum())] = '组排推荐：'
         # 英雄组合关系部分信息
         dfInfo = ''
         if res_dict['state']['heroDetail']['dfInfo']:
@@ -423,10 +433,16 @@ def sava_db(text_list, yx_tup, gx_tup):
                 winRate = d['winRate']
                 wins = '|登场率{} 胜率{}'.format(showRate, winRate)
                 heros = '|'
+                html_heros = ''
                 hero_ids = list(d['heroList'].keys())
                 for h in hero_ids:
                     heros += '{} '.format(d['heroList'][h]['szTitle'])
+                    html_heros += '{} '.format(d['heroList'][h]['szTitle'])
+                html_dict['MTEXT{}'.format(fnum())] = '双排组合{}：{}'.format(i + 1, html_heros.strip())
                 dfInfo += '|【双排组合{}】{}{}'.format(i + 1, heros.strip(), wins)
+        else:
+            html_dict['MTEXT{}'.format(fnum())] = '数据暂未更新'
+
         tfInfo = ''
         if res_dict['state']['heroDetail']['tfInfo']:
             tfInfos = res_dict['state']['heroDetail']['tfInfo']['list']
@@ -435,10 +451,16 @@ def sava_db(text_list, yx_tup, gx_tup):
                 winRate = t['winRate']
                 wins = '|登场率{} 胜率{}'.format(showRate, winRate)
                 heros = '|'
+                html_heros = ''
                 hero_ids = list(t['heroList'].keys())
                 for h in hero_ids:
                     heros += '{} '.format(t['heroList'][h]['szTitle'])
+                    html_heros += '{} '.format(t['heroList'][h]['szTitle'])
+                html_dict['MTEXT{}'.format(fnum())] = '三排组合{}：{}'.format(i + 1, html_heros.strip())
                 tfInfo += '|【三排组合{}】{}{}'.format(i + 1, heros.strip(), wins)
+        else:
+            html_dict['MTEXT{}'.format(fnum())] = '数据暂未更新'
+
         if dfInfo and tfInfo:
             zhInfo = '{}|{}|{}'.format(csHeroInfo, dfInfo, tfInfo)
         else:

@@ -23,16 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06268d83-65f7-4bc8-a41e-2ea29bfe1d71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../personalDemo/html/hero154.html" beforeDir="false" afterPath="$PROJECT_DIR$/../personalDemo/html/hero154.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_auto_reply/api/create_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/api/create_html.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_auto_reply/api/up_wz_hero_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/api/up_wz_hero_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_auto_reply/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_auto_reply/plugins/auto_reply.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/plugins/auto_reply.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_auto_reply/plugins/keys_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/plugins/keys_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_auto_reply/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_auto_reply/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/key/wz.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/key/wz.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,22 +162,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1898" height="221" key="GridCell.Tab.0.bottom" timestamp="1608025871878">
+    <state width="1898" height="221" key="GridCell.Tab.0.bottom" timestamp="1608026937409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608025871878" />
-    <state width="1898" height="221" key="GridCell.Tab.0.center" timestamp="1608025871878">
+    <state width="1898" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608026937409" />
+    <state width="1898" height="221" key="GridCell.Tab.0.center" timestamp="1608026937408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608025871878" />
-    <state width="1898" height="221" key="GridCell.Tab.0.left" timestamp="1608025871878">
+    <state width="1898" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608026937408" />
+    <state width="1898" height="221" key="GridCell.Tab.0.left" timestamp="1608026937407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608025871878" />
-    <state width="1898" height="221" key="GridCell.Tab.0.right" timestamp="1608025871878">
+    <state width="1898" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608026937407" />
+    <state width="1898" height="221" key="GridCell.Tab.0.right" timestamp="1608026937408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608025871878" />
+    <state width="1898" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608026937408" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1607390489546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
